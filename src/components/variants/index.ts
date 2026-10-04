@@ -219,8 +219,13 @@ import Comp455 from "./comp-455";
 import Comp456 from "./comp-456";
 import Comp457 from "./comp-457";
 import Comp458 from "./comp-458";
+import Comp459 from "./comp-459";
+import Comp460 from "./comp-460";
+import Comp461 from "./comp-461";
+import Comp462 from "./comp-462";
 import Comp463 from "./comp-463";
 import Comp464 from "./comp-464";
+import Comp465 from "./comp-465";
 import Comp381 from "./comp-381";
 import Comp382 from "./comp-382";
 import Comp383 from "./comp-383";
@@ -324,6 +329,7 @@ import Comp479 from "./comp-479";
 import Comp480 from "./comp-480";
 import Comp482 from "./comp-482";
 import Comp483 from "./comp-483";
+import Comp484 from "./comp-484";
 import Comp485 from "./comp-485";
 import Comp426 from "./comp-426";
 import Comp427 from "./comp-427";
@@ -365,6 +371,7 @@ import Comp76 from "./comp-76";
 import Comp77 from "./comp-77";
 import Comp354 from "./comp-354";
 import Comp355 from "./comp-355";
+import Comp356 from "./comp-356";
 import Comp357 from "./comp-357";
 import Comp358 from "./comp-358";
 import Comp359 from "./comp-359";
@@ -373,6 +380,7 @@ import Comp361 from "./comp-361";
 import Comp362 from "./comp-362";
 import Comp363 from "./comp-363";
 import Comp364 from "./comp-364";
+import Comp365 from "./comp-365";
 
 export type Variant = {
   // Pagination variants need currentPage/totalPages; others ignore them
@@ -620,8 +628,13 @@ export const variants: Record<string, Variant[]> = {
     { C: Comp456, span: 2, style: 0 },
     { C: Comp457, span: 2, style: 0 },
     { C: Comp458, span: 2, style: 0 },
+    { C: Comp459, span: 2, style: 0 },
+    { C: Comp460, span: 2, style: 0 },
+    { C: Comp461, span: 2, style: 0 },
+    { C: Comp462, span: 2, style: 0 },
     { C: Comp463, span: 2, style: 0 },
     { C: Comp464, span: 2, style: 0 },
+    { C: Comp465, span: 2, style: 0 },
   ],
   "popover": [
     { C: Comp381, span: 1, style: 1 },
@@ -737,6 +750,7 @@ export const variants: Record<string, Variant[]> = {
     { C: Comp480, span: 3, style: 0 },
     { C: Comp482, span: 3, style: 0 },
     { C: Comp483, span: 3, style: 0 },
+    { C: Comp484, span: 3, style: 0 },
     { C: Comp485, span: 3, style: 0 },
   ],
   "tabs": [
@@ -784,6 +798,7 @@ export const variants: Record<string, Variant[]> = {
   "tooltip": [
     { C: Comp354, span: 1, style: 1 },
     { C: Comp355, span: 1, style: 1 },
+    { C: Comp356, span: 1, style: 1 },
     { C: Comp357, span: 1, style: 1 },
     { C: Comp358, span: 1, style: 1 },
     { C: Comp359, span: 1, style: 1 },
@@ -792,5 +807,6 @@ export const variants: Record<string, Variant[]> = {
     { C: Comp362, span: 1, style: 1 },
     { C: Comp363, span: 1, style: 1 },
     { C: Comp364, span: 1, style: 1 },
+    { C: Comp365, span: 1, style: 1 },
   ],
 };

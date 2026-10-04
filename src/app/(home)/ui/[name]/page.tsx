@@ -44,7 +44,7 @@ const getPrimitive = (name: string) =>
   getRegistryItems().find((i) => i.name === name && i.type === "registry:ui");
 
 // Primitives whose original demos are hidden on /ui (Origin variants cover them)
-const HIDE_DEMOS = new Set(["accordion"]);
+const HIDE_DEMOS = new Set(["accordion", "select", "tooltip"]);
 
 function getCells(name: string): Cell[] {
   const own = HIDE_DEMOS.has(name)

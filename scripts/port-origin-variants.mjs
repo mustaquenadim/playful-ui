@@ -33,10 +33,16 @@ const PATCHES = {
   ],
   // nested filled panels poke out of the rounded last item
   "comp-352": [["relative border outline-none", "relative overflow-hidden border outline-none"]],
+  // our tooltip always has an arrow and hover-card has none, so drop the showArrow prop
+  "comp-356": [[" showArrow={true}", ""]],
+  "comp-365": [[" showArrow", ""]],
 };
 
 const ourUi = new Set(
   fs.readdirSync(path.join(DEST, "src/components/ui")).map((f) => f.replace(/\.tsx?$/, "")),
+);
+const ourHooks = new Set(
+  fs.readdirSync(path.join(DEST, "src/hooks")).map((f) => f.replace(/\.tsx?$/, "")),
 );
 const exclude = new Set(
   fs.existsSync("scripts/origin-exclude.txt")
@@ -61,11 +67,14 @@ while ((m = re.exec(cfg))) {
       if (s === "@/registry/default/lib/utils") return true;
       const ui = s.match(/^@\/registry\/default\/ui\/(.+)$/);
       if (ui) return ourUi.has(ui[1]);
+      const hook = s.match(/^@\/registry\/default\/hooks\/(.+)$/);
+      if (hook) return ourHooks.has(hook[1]);
       return PKGS.has(s);
     });
     if (!ok) continue;
     code = code
       .replaceAll("@/registry/default/ui/", "@/components/ui/")
+      .replaceAll("@/registry/default/hooks/", "@/hooks/")
       .replaceAll("@/registry/default/lib/utils", "@/lib/utils")
       .replace(/(["'])(?:\.\/)?([\w-]+\.(?:jpg|png))/g, "$1/$2")
       // Origin's accent is a subtle grey; ours is bright yellow, so use the neutral tokens
