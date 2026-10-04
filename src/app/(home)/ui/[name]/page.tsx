@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 
 import { demos } from "@/app/demo/[name]/index";
 import { CopyCommand } from "@/components/registry/copy-command";
+import { VariantActions } from "@/components/registry/variant-actions";
 import { variants } from "@/components/variants";
 import { getRegistryItems, getUIPrimitives } from "@/lib/registry";
 import { cn } from "@/lib/utils";
@@ -32,6 +33,7 @@ const STYLE: Record<number, string> = {
 
 type Cell = {
   key: string;
+  registry: string; // registry item behind the cell's code/URL/v0 actions
   label?: string;
   node: ReactNode;
   span: number;
@@ -44,7 +46,7 @@ const getPrimitive = (name: string) =>
   getRegistryItems().find((i) => i.name === name && i.type === "registry:ui");
 
 // Primitives whose original demos are hidden on /ui (Origin variants cover them)
-const HIDE_DEMOS = new Set(["accordion", "select", "tooltip"]);
+const HIDE_DEMOS = new Set(["accordion", "pagination", "select", "tooltip"]);
 
 function getCells(name: string): Cell[] {
   const own = HIDE_DEMOS.has(name)
@@ -55,13 +57,15 @@ function getCells(name: string): Cell[] {
   return [
     ...own.map(([label, node]) => ({
       key: label,
+      registry: name,
       label,
       node,
       span: wide ? 3 : 1,
       style: WIDE.has(name) ? 0 : 1,
     })),
-    ...(variants[name] ?? []).map(({ C, span, style }, i) => ({
-      key: `origin-${i}`,
+    ...(variants[name] ?? []).map(({ name: registry, C, span, style }) => ({
+      key: registry,
+      registry,
       node: <C currentPage={1} totalPages={10} />,
       span,
       style,
@@ -110,12 +114,12 @@ export default async function UIPrimitivePage({ params }: Props) {
 
       <div className="overflow-hidden">
         <div className="-m-px grid grid-cols-12 *:not-first:-ms-px *:not-first:-mt-px">
-          {cells.map(({ key, label, node, span, style }) => (
+          {cells.map(({ key, registry, label, node, span, style }) => (
             <div
               key={key}
               // layout containment keeps fixed-position demos (sidebar) inside the cell
               className={cn(
-                "relative min-w-0 border px-1 py-12 [contain:layout] sm:px-8 xl:px-12",
+                "group/item relative min-w-0 border px-1 py-12 [contain:layout] sm:px-8 xl:px-12",
                 SPAN[span] ?? SPAN[1],
                 STYLE[style],
               )}
@@ -126,6 +130,7 @@ export default async function UIPrimitivePage({ params }: Props) {
                 </span>
               )}
               {node}
+              <VariantActions name={registry} baseUrl={baseUrl} />
             </div>
           ))}
         </div>

@@ -33,6 +33,13 @@ const PATCHES = {
   ],
   // nested filled panels poke out of the rounded last item
   "comp-352": [["relative border outline-none", "relative overflow-hidden border outline-none"]],
+  // square switch: fixed radii, since our --radius is 1rem and rounded-sm (12px) makes a pill
+  "comp-176": [
+    [
+      'className="rounded-sm [&_span]:rounded"',
+      'className="rounded-[6px] [&_span]:rounded-[4px]"',
+    ],
+  ],
   // our tooltip always has an arrow and hover-card has none, so drop the showArrow prop
   "comp-356": [[" showArrow={true}", ""]],
   "comp-365": [[" showArrow", ""]],
@@ -52,6 +59,8 @@ const exclude = new Set(
 
 const cfg = fs.readFileSync(path.join(ORIGIN, "config/components.ts"), "utf8");
 const re = /slug: "([^"]+)"[\s\S]*?components: \[([\s\S]*?)\]/g;
+const HOMEPAGE = JSON.parse(fs.readFileSync(path.join(DEST, "registry.json"), "utf8")).homepage;
+const items = [];
 const result = {};
 const seen = new Set();
 let m;
@@ -88,6 +97,29 @@ while ((m = re.exec(cfg))) {
     fs.writeFileSync(path.join(OUT, `${name}.tsx`), code);
     seen.add(name);
     (result[prim] ??= []).push(name);
+
+    // registry item so each variant gets its own /r/<name>.json (registry URL, CLI, v0, code)
+    const imports = [...code.matchAll(/from "([^"]+)"/g)].map(([, s]) => s);
+    const hooks = imports.flatMap((s) => s.match(/^@\/hooks\/(.+)$/)?.[1] ?? []);
+    const deps = imports.filter((s) => PKGS.has(s) && s !== "react");
+    items.push({
+      name,
+      type: "registry:component",
+      title: `${prim} ${name}`,
+      ...(deps.length && { dependencies: [...new Set(deps)] }),
+      registryDependencies: [
+        ...new Set(
+          imports.flatMap((s) => s.match(/^@\/components\/ui\/(.+)$/)?.[1] ?? []),
+        ),
+      ].map((ui) => `${HOMEPAGE}/r/${ui}.json`),
+      files: [
+        { path: `src/components/variants/${name}.tsx`, type: "registry:component" },
+        ...hooks.map((h) => ({
+          path: `src/hooks/${fs.readdirSync(path.join(DEST, "src/hooks")).find((f) => f.startsWith(`${h}.`))}`,
+          type: "registry:hook",
+        })),
+      ],
+    });
   }
 }
 
@@ -105,7 +137,7 @@ const meta = Object.fromEntries(
 );
 const entry = (n) => {
   const { colSpan = 1, style = 0 } = meta[n] ?? {};
-  return `{ C: ${id(n)}, span: ${colSpan}, style: ${style} }`;
+  return `{ name: "${n}", C: ${id(n)}, span: ${colSpan}, style: ${style} }`;
 };
 const names = Object.values(result).flat();
 const index = [
@@ -116,6 +148,7 @@ const index = [
   ...names.map((n) => `import ${id(n)} from "./${n}";`),
   "",
   "export type Variant = {",
+  "  name: string; // registry item name, served at /r/<name>.json",
   "  // Pagination variants need currentPage/totalPages; others ignore them",
   "  C: ComponentType<{ currentPage: number; totalPages: number }>;",
   "  span: number; // 1 = third, 2 = half, 3 = full row",
@@ -130,4 +163,20 @@ const index = [
   "",
 ].join("\n");
 fs.writeFileSync(path.join(OUT, "index.ts"), index);
+
+// Separate registry so the main registry.json (and the sidebar built from it) stays clean;
+// built into public/r by the registry:build script
+fs.writeFileSync(
+  path.join(DEST, "registry-variants.json"),
+  `${JSON.stringify(
+    {
+      $schema: "https://ui.shadcn.com/schema/registry.json",
+      name: "Playful UI variants",
+      homepage: HOMEPAGE,
+      items,
+    },
+    null,
+    2,
+  )}\n`,
+);
 console.log(Object.entries(result).map(([p, ns]) => `${p}:${ns.length}`).join(" "), "total", names.length);

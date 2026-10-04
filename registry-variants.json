@@ -1,0 +1,6094 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "Playful UI variants",
+  "homepage": "https://playful.ui.mustaquenadim.com",
+  "items": [
+    {
+      "name": "comp-334",
+      "type": "registry:component",
+      "title": "accordion comp-334",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-334.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-335",
+      "type": "registry:component",
+      "title": "accordion comp-335",
+      "dependencies": [
+        "lucide-react",
+        "radix-ui"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-335.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-336",
+      "type": "registry:component",
+      "title": "accordion comp-336",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-336.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-337",
+      "type": "registry:component",
+      "title": "accordion comp-337",
+      "dependencies": [
+        "lucide-react",
+        "radix-ui"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-337.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-338",
+      "type": "registry:component",
+      "title": "accordion comp-338",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-338.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-339",
+      "type": "registry:component",
+      "title": "accordion comp-339",
+      "dependencies": [
+        "lucide-react",
+        "radix-ui"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-339.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-340",
+      "type": "registry:component",
+      "title": "accordion comp-340",
+      "dependencies": [
+        "lucide-react",
+        "radix-ui"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-340.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-341",
+      "type": "registry:component",
+      "title": "accordion comp-341",
+      "dependencies": [
+        "lucide-react",
+        "radix-ui"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-341.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-342",
+      "type": "registry:component",
+      "title": "accordion comp-342",
+      "dependencies": [
+        "lucide-react",
+        "radix-ui"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-342.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-343",
+      "type": "registry:component",
+      "title": "accordion comp-343",
+      "dependencies": [
+        "lucide-react",
+        "radix-ui"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-343.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-344",
+      "type": "registry:component",
+      "title": "accordion comp-344",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-344.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-345",
+      "type": "registry:component",
+      "title": "accordion comp-345",
+      "dependencies": [
+        "lucide-react",
+        "radix-ui"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-345.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-346",
+      "type": "registry:component",
+      "title": "accordion comp-346",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-346.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-347",
+      "type": "registry:component",
+      "title": "accordion comp-347",
+      "dependencies": [
+        "lucide-react",
+        "radix-ui"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-347.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-348",
+      "type": "registry:component",
+      "title": "accordion comp-348",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-348.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-349",
+      "type": "registry:component",
+      "title": "accordion comp-349",
+      "dependencies": [
+        "lucide-react",
+        "radix-ui"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-349.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-350",
+      "type": "registry:component",
+      "title": "accordion comp-350",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-350.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-351",
+      "type": "registry:component",
+      "title": "accordion comp-351",
+      "dependencies": [
+        "lucide-react",
+        "radix-ui"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-351.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-352",
+      "type": "registry:component",
+      "title": "accordion comp-352",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json",
+        "https://playful.ui.mustaquenadim.com/r/collapsible.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-352.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-353",
+      "type": "registry:component",
+      "title": "accordion comp-353",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/accordion.json",
+        "https://playful.ui.mustaquenadim.com/r/collapsible.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-353.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-267",
+      "type": "registry:component",
+      "title": "alert comp-267",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-267.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-268",
+      "type": "registry:component",
+      "title": "alert comp-268",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-268.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-269",
+      "type": "registry:component",
+      "title": "alert comp-269",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-269.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-270",
+      "type": "registry:component",
+      "title": "alert comp-270",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-270.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-271",
+      "type": "registry:component",
+      "title": "alert comp-271",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-271.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-272",
+      "type": "registry:component",
+      "title": "alert comp-272",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-272.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-273",
+      "type": "registry:component",
+      "title": "alert comp-273",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-273.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-274",
+      "type": "registry:component",
+      "title": "alert comp-274",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-274.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-275",
+      "type": "registry:component",
+      "title": "alert comp-275",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-275.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-276",
+      "type": "registry:component",
+      "title": "alert comp-276",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-276.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-277",
+      "type": "registry:component",
+      "title": "alert comp-277",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-277.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-278",
+      "type": "registry:component",
+      "title": "alert comp-278",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-278.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-390",
+      "type": "registry:component",
+      "title": "avatar comp-390",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/avatar.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-390.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-391",
+      "type": "registry:component",
+      "title": "avatar comp-391",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/avatar.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-391.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-392",
+      "type": "registry:component",
+      "title": "avatar comp-392",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/avatar.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-392.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-393",
+      "type": "registry:component",
+      "title": "avatar comp-393",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/avatar.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-393.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-394",
+      "type": "registry:component",
+      "title": "avatar comp-394",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/avatar.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-394.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-395",
+      "type": "registry:component",
+      "title": "avatar comp-395",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/avatar.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-395.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-396",
+      "type": "registry:component",
+      "title": "avatar comp-396",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/avatar.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-396.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-397",
+      "type": "registry:component",
+      "title": "avatar comp-397",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/avatar.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-397.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-398",
+      "type": "registry:component",
+      "title": "avatar comp-398",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/avatar.json",
+        "https://playful.ui.mustaquenadim.com/r/badge.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-398.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-399",
+      "type": "registry:component",
+      "title": "avatar comp-399",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/avatar.json",
+        "https://playful.ui.mustaquenadim.com/r/badge.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-399.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-400",
+      "type": "registry:component",
+      "title": "avatar comp-400",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-400.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-401",
+      "type": "registry:component",
+      "title": "avatar comp-401",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-401.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-402",
+      "type": "registry:component",
+      "title": "avatar comp-402",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-402.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-403",
+      "type": "registry:component",
+      "title": "avatar comp-403",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-403.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-404",
+      "type": "registry:component",
+      "title": "avatar comp-404",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-404.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-405",
+      "type": "registry:component",
+      "title": "avatar comp-405",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-405.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-406",
+      "type": "registry:component",
+      "title": "avatar comp-406",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-406.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-407",
+      "type": "registry:component",
+      "title": "avatar comp-407",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-407.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-408",
+      "type": "registry:component",
+      "title": "avatar comp-408",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-408.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-409",
+      "type": "registry:component",
+      "title": "avatar comp-409",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-409.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-410",
+      "type": "registry:component",
+      "title": "avatar comp-410",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-410.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-411",
+      "type": "registry:component",
+      "title": "avatar comp-411",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-411.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-412",
+      "type": "registry:component",
+      "title": "avatar comp-412",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-412.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-413",
+      "type": "registry:component",
+      "title": "badge comp-413",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-413.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-414",
+      "type": "registry:component",
+      "title": "badge comp-414",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-414.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-415",
+      "type": "registry:component",
+      "title": "badge comp-415",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-415.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-416",
+      "type": "registry:component",
+      "title": "badge comp-416",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-416.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-417",
+      "type": "registry:component",
+      "title": "badge comp-417",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-417.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-418",
+      "type": "registry:component",
+      "title": "badge comp-418",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-418.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-419",
+      "type": "registry:component",
+      "title": "badge comp-419",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-419.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-420",
+      "type": "registry:component",
+      "title": "badge comp-420",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-420.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-421",
+      "type": "registry:component",
+      "title": "badge comp-421",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-421.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-422",
+      "type": "registry:component",
+      "title": "badge comp-422",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-422.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-423",
+      "type": "registry:component",
+      "title": "badge comp-423",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json",
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-423.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-424",
+      "type": "registry:component",
+      "title": "badge comp-424",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-424.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-425",
+      "type": "registry:component",
+      "title": "badge comp-425",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-425.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-446",
+      "type": "registry:component",
+      "title": "breadcrumb comp-446",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/breadcrumb.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-446.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-447",
+      "type": "registry:component",
+      "title": "breadcrumb comp-447",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/breadcrumb.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-447.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-448",
+      "type": "registry:component",
+      "title": "breadcrumb comp-448",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/breadcrumb.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-448.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-449",
+      "type": "registry:component",
+      "title": "breadcrumb comp-449",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/breadcrumb.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-449.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-450",
+      "type": "registry:component",
+      "title": "breadcrumb comp-450",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/breadcrumb.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-450.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-451",
+      "type": "registry:component",
+      "title": "breadcrumb comp-451",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/breadcrumb.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-451.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-452",
+      "type": "registry:component",
+      "title": "breadcrumb comp-452",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/breadcrumb.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-452.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-453",
+      "type": "registry:component",
+      "title": "breadcrumb comp-453",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/breadcrumb.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-453.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-78",
+      "type": "registry:component",
+      "title": "button comp-78",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-78.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-79",
+      "type": "registry:component",
+      "title": "button comp-79",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-79.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-80",
+      "type": "registry:component",
+      "title": "button comp-80",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-80.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-81",
+      "type": "registry:component",
+      "title": "button comp-81",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-81.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-82",
+      "type": "registry:component",
+      "title": "button comp-82",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-82.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-83",
+      "type": "registry:component",
+      "title": "button comp-83",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-83.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-84",
+      "type": "registry:component",
+      "title": "button comp-84",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-84.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-85",
+      "type": "registry:component",
+      "title": "button comp-85",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-85.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-86",
+      "type": "registry:component",
+      "title": "button comp-86",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-86.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-87",
+      "type": "registry:component",
+      "title": "button comp-87",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-87.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-88",
+      "type": "registry:component",
+      "title": "button comp-88",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-88.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-89",
+      "type": "registry:component",
+      "title": "button comp-89",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-89.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-90",
+      "type": "registry:component",
+      "title": "button comp-90",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-90.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-91",
+      "type": "registry:component",
+      "title": "button comp-91",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-91.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-92",
+      "type": "registry:component",
+      "title": "button comp-92",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-92.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-93",
+      "type": "registry:component",
+      "title": "button comp-93",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-93.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-94",
+      "type": "registry:component",
+      "title": "button comp-94",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-94.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-95",
+      "type": "registry:component",
+      "title": "button comp-95",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/avatar.json",
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-95.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-96",
+      "type": "registry:component",
+      "title": "button comp-96",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-96.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-97",
+      "type": "registry:component",
+      "title": "button comp-97",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-97.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-98",
+      "type": "registry:component",
+      "title": "button comp-98",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-98.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-99",
+      "type": "registry:component",
+      "title": "button comp-99",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-99.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-100",
+      "type": "registry:component",
+      "title": "button comp-100",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-100.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-101",
+      "type": "registry:component",
+      "title": "button comp-101",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/toggle.json",
+        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-101.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-129",
+      "type": "registry:component",
+      "title": "button comp-129",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json",
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-129.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-130",
+      "type": "registry:component",
+      "title": "button comp-130",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/toggle.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-130.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-102",
+      "type": "registry:component",
+      "title": "button comp-102",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-102.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-103",
+      "type": "registry:component",
+      "title": "button comp-103",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-103.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-104",
+      "type": "registry:component",
+      "title": "button comp-104",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-104.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-105",
+      "type": "registry:component",
+      "title": "button comp-105",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-105.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-106",
+      "type": "registry:component",
+      "title": "button comp-106",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-106.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-107",
+      "type": "registry:component",
+      "title": "button comp-107",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/toggle-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-107.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-108",
+      "type": "registry:component",
+      "title": "button comp-108",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-108.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-109",
+      "type": "registry:component",
+      "title": "button comp-109",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/toggle-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-109.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-110",
+      "type": "registry:component",
+      "title": "button comp-110",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/toggle-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-110.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-111",
+      "type": "registry:component",
+      "title": "button comp-111",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-111.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-112",
+      "type": "registry:component",
+      "title": "button comp-112",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-112.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-113",
+      "type": "registry:component",
+      "title": "button comp-113",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-113.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-114",
+      "type": "registry:component",
+      "title": "button comp-114",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-114.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-131",
+      "type": "registry:component",
+      "title": "button comp-131",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-131.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-115",
+      "type": "registry:component",
+      "title": "button comp-115",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-115.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-116",
+      "type": "registry:component",
+      "title": "button comp-116",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-116.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-117",
+      "type": "registry:component",
+      "title": "button comp-117",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-117.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-118",
+      "type": "registry:component",
+      "title": "button comp-118",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-118.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-123",
+      "type": "registry:component",
+      "title": "button comp-123",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-123.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-124",
+      "type": "registry:component",
+      "title": "button comp-124",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-124.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-127",
+      "type": "registry:component",
+      "title": "button comp-127",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-127.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-128",
+      "type": "registry:component",
+      "title": "button comp-128",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-128.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-132",
+      "type": "registry:component",
+      "title": "checkbox comp-132",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-132.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-133",
+      "type": "registry:component",
+      "title": "checkbox comp-133",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-133.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-134",
+      "type": "registry:component",
+      "title": "checkbox comp-134",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-134.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-135",
+      "type": "registry:component",
+      "title": "checkbox comp-135",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-135.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-136",
+      "type": "registry:component",
+      "title": "checkbox comp-136",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-136.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-137",
+      "type": "registry:component",
+      "title": "checkbox comp-137",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-137.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-138",
+      "type": "registry:component",
+      "title": "checkbox comp-138",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-138.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-139",
+      "type": "registry:component",
+      "title": "checkbox comp-139",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-139.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-151",
+      "type": "registry:component",
+      "title": "checkbox comp-151",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-151.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-140",
+      "type": "registry:component",
+      "title": "checkbox comp-140",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-140.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-141",
+      "type": "registry:component",
+      "title": "checkbox comp-141",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-141.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-142",
+      "type": "registry:component",
+      "title": "checkbox comp-142",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-142.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-143",
+      "type": "registry:component",
+      "title": "checkbox comp-143",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-143.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-144",
+      "type": "registry:component",
+      "title": "checkbox comp-144",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-144.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-145",
+      "type": "registry:component",
+      "title": "checkbox comp-145",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-145.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-146",
+      "type": "registry:component",
+      "title": "checkbox comp-146",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-146.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-147",
+      "type": "registry:component",
+      "title": "checkbox comp-147",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-147.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-149",
+      "type": "registry:component",
+      "title": "checkbox comp-149",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-149.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-150",
+      "type": "registry:component",
+      "title": "checkbox comp-150",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-150.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-313",
+      "type": "registry:component",
+      "title": "dialog comp-313",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/alert-dialog.json",
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-313.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-314",
+      "type": "registry:component",
+      "title": "dialog comp-314",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/alert-dialog.json",
+        "https://playful.ui.mustaquenadim.com/r/button.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-314.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-315",
+      "type": "registry:component",
+      "title": "dialog comp-315",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dialog.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-315.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-316",
+      "type": "registry:component",
+      "title": "dialog comp-316",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dialog.json",
+        "https://playful.ui.mustaquenadim.com/r/scroll-area.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-316.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-317",
+      "type": "registry:component",
+      "title": "dialog comp-317",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dialog.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-317.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-318",
+      "type": "registry:component",
+      "title": "dialog comp-318",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dialog.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-318.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-319",
+      "type": "registry:component",
+      "title": "dialog comp-319",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dialog.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-319.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-320",
+      "type": "registry:component",
+      "title": "dialog comp-320",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dialog.json",
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-320.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-321",
+      "type": "registry:component",
+      "title": "dialog comp-321",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dialog.json",
+        "https://playful.ui.mustaquenadim.com/r/input.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-321.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-322",
+      "type": "registry:component",
+      "title": "dialog comp-322",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dialog.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-322.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-323",
+      "type": "registry:component",
+      "title": "dialog comp-323",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dialog.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-323.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-324",
+      "type": "registry:component",
+      "title": "dialog comp-324",
+      "dependencies": [
+        "input-otp"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dialog.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-324.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-325",
+      "type": "registry:component",
+      "title": "dialog comp-325",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dialog.json",
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-325.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-326",
+      "type": "registry:component",
+      "title": "dialog comp-326",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/dialog.json",
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-326.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-327",
+      "type": "registry:component",
+      "title": "dialog comp-327",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dialog.json",
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-327.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-330",
+      "type": "registry:component",
+      "title": "dialog comp-330",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dialog.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-330.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-332",
+      "type": "registry:component",
+      "title": "dialog comp-332",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dialog.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-332.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-333",
+      "type": "registry:component",
+      "title": "dialog comp-333",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/command.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-333.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-366",
+      "type": "registry:component",
+      "title": "dropdown-menu comp-366",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-366.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-367",
+      "type": "registry:component",
+      "title": "dropdown-menu comp-367",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-367.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-368",
+      "type": "registry:component",
+      "title": "dropdown-menu comp-368",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-368.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-369",
+      "type": "registry:component",
+      "title": "dropdown-menu comp-369",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-369.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-370",
+      "type": "registry:component",
+      "title": "dropdown-menu comp-370",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-370.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-371",
+      "type": "registry:component",
+      "title": "dropdown-menu comp-371",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-371.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-372",
+      "type": "registry:component",
+      "title": "dropdown-menu comp-372",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-372.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-373",
+      "type": "registry:component",
+      "title": "dropdown-menu comp-373",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-373.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-374",
+      "type": "registry:component",
+      "title": "dropdown-menu comp-374",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-374.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-375",
+      "type": "registry:component",
+      "title": "dropdown-menu comp-375",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-375.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-376",
+      "type": "registry:component",
+      "title": "dropdown-menu comp-376",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-376.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-377",
+      "type": "registry:component",
+      "title": "dropdown-menu comp-377",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/avatar.json",
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-377.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-378",
+      "type": "registry:component",
+      "title": "dropdown-menu comp-378",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-378.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-379",
+      "type": "registry:component",
+      "title": "dropdown-menu comp-379",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-379.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-380",
+      "type": "registry:component",
+      "title": "dropdown-menu comp-380",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-380.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-01",
+      "type": "registry:component",
+      "title": "input comp-01",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-01.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-02",
+      "type": "registry:component",
+      "title": "input comp-02",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-02.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-03",
+      "type": "registry:component",
+      "title": "input comp-03",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-03.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-04",
+      "type": "registry:component",
+      "title": "input comp-04",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-04.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-05",
+      "type": "registry:component",
+      "title": "input comp-05",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-05.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-06",
+      "type": "registry:component",
+      "title": "input comp-06",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-06.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-07",
+      "type": "registry:component",
+      "title": "input comp-07",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-07.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-08",
+      "type": "registry:component",
+      "title": "input comp-08",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-08.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-09",
+      "type": "registry:component",
+      "title": "input comp-09",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-09.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-10",
+      "type": "registry:component",
+      "title": "input comp-10",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-10.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-11",
+      "type": "registry:component",
+      "title": "input comp-11",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-11.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-12",
+      "type": "registry:component",
+      "title": "input comp-12",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-12.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-13",
+      "type": "registry:component",
+      "title": "input comp-13",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-13.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-14",
+      "type": "registry:component",
+      "title": "input comp-14",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-14.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-15",
+      "type": "registry:component",
+      "title": "input comp-15",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-15.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-16",
+      "type": "registry:component",
+      "title": "input comp-16",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-16.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-19",
+      "type": "registry:component",
+      "title": "input comp-19",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-19.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-20",
+      "type": "registry:component",
+      "title": "input comp-20",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-20.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-21",
+      "type": "registry:component",
+      "title": "input comp-21",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-21.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-22",
+      "type": "registry:component",
+      "title": "input comp-22",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-22.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-23",
+      "type": "registry:component",
+      "title": "input comp-23",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-23.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-24",
+      "type": "registry:component",
+      "title": "input comp-24",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-24.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-25",
+      "type": "registry:component",
+      "title": "input comp-25",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-25.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-26",
+      "type": "registry:component",
+      "title": "input comp-26",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-26.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-27",
+      "type": "registry:component",
+      "title": "input comp-27",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-27.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-30",
+      "type": "registry:component",
+      "title": "input comp-30",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-30.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-31",
+      "type": "registry:component",
+      "title": "input comp-31",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-31.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-32",
+      "type": "registry:component",
+      "title": "input comp-32",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-32.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-33",
+      "type": "registry:component",
+      "title": "input comp-33",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-33.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-44",
+      "type": "registry:component",
+      "title": "input comp-44",
+      "dependencies": [
+        "input-otp"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-44.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-45",
+      "type": "registry:component",
+      "title": "input comp-45",
+      "dependencies": [
+        "input-otp",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-45.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-58",
+      "type": "registry:component",
+      "title": "input comp-58",
+      "dependencies": [
+        "input-otp"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-58.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-51",
+      "type": "registry:component",
+      "title": "input comp-51",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-51.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-52",
+      "type": "registry:component",
+      "title": "input comp-52",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-52.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-53",
+      "type": "registry:component",
+      "title": "input comp-53",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-53.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-486",
+      "type": "registry:component",
+      "title": "input comp-486",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-486.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-454",
+      "type": "registry:component",
+      "title": "pagination comp-454",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-454.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-455",
+      "type": "registry:component",
+      "title": "pagination comp-455",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-455.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-456",
+      "type": "registry:component",
+      "title": "pagination comp-456",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-456.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-457",
+      "type": "registry:component",
+      "title": "pagination comp-457",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-457.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-458",
+      "type": "registry:component",
+      "title": "pagination comp-458",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-458.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-459",
+      "type": "registry:component",
+      "title": "pagination comp-459",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-459.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/hooks/use-pagination.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "comp-460",
+      "type": "registry:component",
+      "title": "pagination comp-460",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-460.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/hooks/use-pagination.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "comp-461",
+      "type": "registry:component",
+      "title": "pagination comp-461",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-461.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/hooks/use-pagination.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "comp-462",
+      "type": "registry:component",
+      "title": "pagination comp-462",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/pagination.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-462.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/hooks/use-pagination.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "comp-463",
+      "type": "registry:component",
+      "title": "pagination comp-463",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/pagination.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-463.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-464",
+      "type": "registry:component",
+      "title": "pagination comp-464",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/pagination.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-464.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-465",
+      "type": "registry:component",
+      "title": "pagination comp-465",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-465.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/hooks/use-pagination.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "comp-381",
+      "type": "registry:component",
+      "title": "popover comp-381",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/popover.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-381.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-382",
+      "type": "registry:component",
+      "title": "popover comp-382",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json",
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/popover.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-382.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-383",
+      "type": "registry:component",
+      "title": "popover comp-383",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json",
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/popover.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-383.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-384",
+      "type": "registry:component",
+      "title": "popover comp-384",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/popover.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-384.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-385",
+      "type": "registry:component",
+      "title": "popover comp-385",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/popover.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-385.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-386",
+      "type": "registry:component",
+      "title": "popover comp-386",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/popover.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-386.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-388",
+      "type": "registry:component",
+      "title": "popover comp-388",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/popover.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-388.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-152",
+      "type": "registry:component",
+      "title": "radio-group comp-152",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-152.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-153",
+      "type": "registry:component",
+      "title": "radio-group comp-153",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-153.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-154",
+      "type": "registry:component",
+      "title": "radio-group comp-154",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-154.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-155",
+      "type": "registry:component",
+      "title": "radio-group comp-155",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-155.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-156",
+      "type": "registry:component",
+      "title": "radio-group comp-156",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-156.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-158",
+      "type": "registry:component",
+      "title": "radio-group comp-158",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-158.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-159",
+      "type": "registry:component",
+      "title": "radio-group comp-159",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-159.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-160",
+      "type": "registry:component",
+      "title": "radio-group comp-160",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-160.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-161",
+      "type": "registry:component",
+      "title": "radio-group comp-161",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-161.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-162",
+      "type": "registry:component",
+      "title": "radio-group comp-162",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-162.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-164",
+      "type": "registry:component",
+      "title": "radio-group comp-164",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-164.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-165",
+      "type": "registry:component",
+      "title": "radio-group comp-165",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-165.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-166",
+      "type": "registry:component",
+      "title": "radio-group comp-166",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-166.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-167",
+      "type": "registry:component",
+      "title": "radio-group comp-167",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-167.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-168",
+      "type": "registry:component",
+      "title": "radio-group comp-168",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-168.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-169",
+      "type": "registry:component",
+      "title": "radio-group comp-169",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-169.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-170",
+      "type": "registry:component",
+      "title": "radio-group comp-170",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-170.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-203",
+      "type": "registry:component",
+      "title": "select comp-203",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-203.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-204",
+      "type": "registry:component",
+      "title": "select comp-204",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-204.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-205",
+      "type": "registry:component",
+      "title": "select comp-205",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-205.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-206",
+      "type": "registry:component",
+      "title": "select comp-206",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-206.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-207",
+      "type": "registry:component",
+      "title": "select comp-207",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-207.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-208",
+      "type": "registry:component",
+      "title": "select comp-208",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-208.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-209",
+      "type": "registry:component",
+      "title": "select comp-209",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-209.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-210",
+      "type": "registry:component",
+      "title": "select comp-210",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-210.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-211",
+      "type": "registry:component",
+      "title": "select comp-211",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-211.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-212",
+      "type": "registry:component",
+      "title": "select comp-212",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-212.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-213",
+      "type": "registry:component",
+      "title": "select comp-213",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-213.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-214",
+      "type": "registry:component",
+      "title": "select comp-214",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-214.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-215",
+      "type": "registry:component",
+      "title": "select comp-215",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-215.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-216",
+      "type": "registry:component",
+      "title": "select comp-216",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-216.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-217",
+      "type": "registry:component",
+      "title": "select comp-217",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-217.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-218",
+      "type": "registry:component",
+      "title": "select comp-218",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-218.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-219",
+      "type": "registry:component",
+      "title": "select comp-219",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-219.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-220",
+      "type": "registry:component",
+      "title": "select comp-220",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-220.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-221",
+      "type": "registry:component",
+      "title": "select comp-221",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-221.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-224",
+      "type": "registry:component",
+      "title": "select comp-224",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-224.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-225",
+      "type": "registry:component",
+      "title": "select comp-225",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-225.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-226",
+      "type": "registry:component",
+      "title": "select comp-226",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-226.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-227",
+      "type": "registry:component",
+      "title": "select comp-227",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-227.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-228",
+      "type": "registry:component",
+      "title": "select comp-228",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-228.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-229",
+      "type": "registry:component",
+      "title": "select comp-229",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/command.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/popover.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-229.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-230",
+      "type": "registry:component",
+      "title": "select comp-230",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/command.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/popover.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-230.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-231",
+      "type": "registry:component",
+      "title": "select comp-231",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/command.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/popover.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-231.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-232",
+      "type": "registry:component",
+      "title": "select comp-232",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/command.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/popover.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-232.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-233",
+      "type": "registry:component",
+      "title": "select comp-233",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/command.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/popover.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-233.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-240",
+      "type": "registry:component",
+      "title": "slider comp-240",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/slider.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-240.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-241",
+      "type": "registry:component",
+      "title": "slider comp-241",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/slider.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-241.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-242",
+      "type": "registry:component",
+      "title": "slider comp-242",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/slider.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-242.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-243",
+      "type": "registry:component",
+      "title": "slider comp-243",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/slider.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-243.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-244",
+      "type": "registry:component",
+      "title": "slider comp-244",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/slider.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-244.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-245",
+      "type": "registry:component",
+      "title": "slider comp-245",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/slider.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-245.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-246",
+      "type": "registry:component",
+      "title": "slider comp-246",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/slider.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-246.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-247",
+      "type": "registry:component",
+      "title": "slider comp-247",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/slider.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-247.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-248",
+      "type": "registry:component",
+      "title": "slider comp-248",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/slider.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-248.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-250",
+      "type": "registry:component",
+      "title": "slider comp-250",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/slider.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-250.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-251",
+      "type": "registry:component",
+      "title": "slider comp-251",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/slider.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-251.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-252",
+      "type": "registry:component",
+      "title": "slider comp-252",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/slider.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-252.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-256",
+      "type": "registry:component",
+      "title": "slider comp-256",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/slider.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-256.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-259",
+      "type": "registry:component",
+      "title": "slider comp-259",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/slider.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-259.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-260",
+      "type": "registry:component",
+      "title": "slider comp-260",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/slider.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-260.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-261",
+      "type": "registry:component",
+      "title": "slider comp-261",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/slider.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-261.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-172",
+      "type": "registry:component",
+      "title": "switch comp-172",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-172.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-173",
+      "type": "registry:component",
+      "title": "switch comp-173",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-173.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-174",
+      "type": "registry:component",
+      "title": "switch comp-174",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-174.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-175",
+      "type": "registry:component",
+      "title": "switch comp-175",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-175.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-176",
+      "type": "registry:component",
+      "title": "switch comp-176",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-176.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-177",
+      "type": "registry:component",
+      "title": "switch comp-177",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-177.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-178",
+      "type": "registry:component",
+      "title": "switch comp-178",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-178.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-179",
+      "type": "registry:component",
+      "title": "switch comp-179",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-179.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-180",
+      "type": "registry:component",
+      "title": "switch comp-180",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-180.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-181",
+      "type": "registry:component",
+      "title": "switch comp-181",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-181.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-182",
+      "type": "registry:component",
+      "title": "switch comp-182",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-182.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-183",
+      "type": "registry:component",
+      "title": "switch comp-183",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-183.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-184",
+      "type": "registry:component",
+      "title": "switch comp-184",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-184.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-185",
+      "type": "registry:component",
+      "title": "switch comp-185",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-185.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-186",
+      "type": "registry:component",
+      "title": "switch comp-186",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-186.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-187",
+      "type": "registry:component",
+      "title": "switch comp-187",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-187.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-188",
+      "type": "registry:component",
+      "title": "switch comp-188",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/switch.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-188.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-466",
+      "type": "registry:component",
+      "title": "table comp-466",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-466.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-467",
+      "type": "registry:component",
+      "title": "table comp-467",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-467.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-468",
+      "type": "registry:component",
+      "title": "table comp-468",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-468.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-469",
+      "type": "registry:component",
+      "title": "table comp-469",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-469.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-470",
+      "type": "registry:component",
+      "title": "table comp-470",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-470.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-471",
+      "type": "registry:component",
+      "title": "table comp-471",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-471.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-472",
+      "type": "registry:component",
+      "title": "table comp-472",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-472.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-473",
+      "type": "registry:component",
+      "title": "table comp-473",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-473.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-474",
+      "type": "registry:component",
+      "title": "table comp-474",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-474.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-475",
+      "type": "registry:component",
+      "title": "table comp-475",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-475.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-476",
+      "type": "registry:component",
+      "title": "table comp-476",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-476.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-477",
+      "type": "registry:component",
+      "title": "table comp-477",
+      "dependencies": [
+        "@tanstack/react-table"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json",
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-477.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-478",
+      "type": "registry:component",
+      "title": "table comp-478",
+      "dependencies": [
+        "@tanstack/react-table",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json",
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-478.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-479",
+      "type": "registry:component",
+      "title": "table comp-479",
+      "dependencies": [
+        "@tanstack/react-table",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-479.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-480",
+      "type": "registry:component",
+      "title": "table comp-480",
+      "dependencies": [
+        "@tanstack/react-table",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json",
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-480.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-482",
+      "type": "registry:component",
+      "title": "table comp-482",
+      "dependencies": [
+        "@tanstack/react-table",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json",
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-482.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-483",
+      "type": "registry:component",
+      "title": "table comp-483",
+      "dependencies": [
+        "@tanstack/react-table",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json",
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/pagination.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json",
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-483.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-484",
+      "type": "registry:component",
+      "title": "table comp-484",
+      "dependencies": [
+        "@tanstack/react-table",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json",
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/pagination.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json",
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-484.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/hooks/use-pagination.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "comp-485",
+      "type": "registry:component",
+      "title": "table comp-485",
+      "dependencies": [
+        "@tanstack/react-table",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/alert-dialog.json",
+        "https://playful.ui.mustaquenadim.com/r/badge.json",
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
+        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json",
+        "https://playful.ui.mustaquenadim.com/r/input.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/pagination.json",
+        "https://playful.ui.mustaquenadim.com/r/popover.json",
+        "https://playful.ui.mustaquenadim.com/r/select.json",
+        "https://playful.ui.mustaquenadim.com/r/table.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-485.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-426",
+      "type": "registry:component",
+      "title": "tabs comp-426",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-426.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-427",
+      "type": "registry:component",
+      "title": "tabs comp-427",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-427.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-428",
+      "type": "registry:component",
+      "title": "tabs comp-428",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-428.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-429",
+      "type": "registry:component",
+      "title": "tabs comp-429",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-429.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-430",
+      "type": "registry:component",
+      "title": "tabs comp-430",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-430.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-431",
+      "type": "registry:component",
+      "title": "tabs comp-431",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-431.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-432",
+      "type": "registry:component",
+      "title": "tabs comp-432",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-432.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-433",
+      "type": "registry:component",
+      "title": "tabs comp-433",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json",
+        "https://playful.ui.mustaquenadim.com/r/scroll-area.json",
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-433.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-434",
+      "type": "registry:component",
+      "title": "tabs comp-434",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/scroll-area.json",
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-434.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-435",
+      "type": "registry:component",
+      "title": "tabs comp-435",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/scroll-area.json",
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-435.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-436",
+      "type": "registry:component",
+      "title": "tabs comp-436",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/scroll-area.json",
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-436.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-437",
+      "type": "registry:component",
+      "title": "tabs comp-437",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json",
+        "https://playful.ui.mustaquenadim.com/r/scroll-area.json",
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-437.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-438",
+      "type": "registry:component",
+      "title": "tabs comp-438",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-438.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-439",
+      "type": "registry:component",
+      "title": "tabs comp-439",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json",
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-439.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-440",
+      "type": "registry:component",
+      "title": "tabs comp-440",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json",
+        "https://playful.ui.mustaquenadim.com/r/tabs.json",
+        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-440.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-441",
+      "type": "registry:component",
+      "title": "tabs comp-441",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/badge.json",
+        "https://playful.ui.mustaquenadim.com/r/tabs.json",
+        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-441.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-442",
+      "type": "registry:component",
+      "title": "tabs comp-442",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-442.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-443",
+      "type": "registry:component",
+      "title": "tabs comp-443",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-443.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-444",
+      "type": "registry:component",
+      "title": "tabs comp-444",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-444.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-445",
+      "type": "registry:component",
+      "title": "tabs comp-445",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-445.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-59",
+      "type": "registry:component",
+      "title": "textarea comp-59",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-59.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-60",
+      "type": "registry:component",
+      "title": "textarea comp-60",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-60.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-61",
+      "type": "registry:component",
+      "title": "textarea comp-61",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-61.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-62",
+      "type": "registry:component",
+      "title": "textarea comp-62",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-62.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-63",
+      "type": "registry:component",
+      "title": "textarea comp-63",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-63.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-64",
+      "type": "registry:component",
+      "title": "textarea comp-64",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-64.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-65",
+      "type": "registry:component",
+      "title": "textarea comp-65",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-65.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-66",
+      "type": "registry:component",
+      "title": "textarea comp-66",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-66.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-67",
+      "type": "registry:component",
+      "title": "textarea comp-67",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-67.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-68",
+      "type": "registry:component",
+      "title": "textarea comp-68",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-68.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-69",
+      "type": "registry:component",
+      "title": "textarea comp-69",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-69.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-70",
+      "type": "registry:component",
+      "title": "textarea comp-70",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-70.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-71",
+      "type": "registry:component",
+      "title": "textarea comp-71",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-71.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-72",
+      "type": "registry:component",
+      "title": "textarea comp-72",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-72.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-73",
+      "type": "registry:component",
+      "title": "textarea comp-73",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/components/variants/comp-73.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-75",
+      "type": "registry:component",
+      "title": "textarea comp-75",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-75.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-76",
+      "type": "registry:component",
+      "title": "textarea comp-76",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-76.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-77",
+      "type": "registry:component",
+      "title": "textarea comp-77",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/label.json",
+        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-77.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-354",
+      "type": "registry:component",
+      "title": "tooltip comp-354",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-354.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-355",
+      "type": "registry:component",
+      "title": "tooltip comp-355",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-355.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-356",
+      "type": "registry:component",
+      "title": "tooltip comp-356",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-356.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-357",
+      "type": "registry:component",
+      "title": "tooltip comp-357",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-357.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-358",
+      "type": "registry:component",
+      "title": "tooltip comp-358",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-358.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-359",
+      "type": "registry:component",
+      "title": "tooltip comp-359",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-359.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-360",
+      "type": "registry:component",
+      "title": "tooltip comp-360",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-360.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-361",
+      "type": "registry:component",
+      "title": "tooltip comp-361",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-361.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-362",
+      "type": "registry:component",
+      "title": "tooltip comp-362",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-362.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-363",
+      "type": "registry:component",
+      "title": "tooltip comp-363",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/button.json",
+        "https://playful.ui.mustaquenadim.com/r/hover-card.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-363.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-364",
+      "type": "registry:component",
+      "title": "tooltip comp-364",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/hover-card.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-364.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "comp-365",
+      "type": "registry:component",
+      "title": "tooltip comp-365",
+      "registryDependencies": [
+        "https://playful.ui.mustaquenadim.com/r/hover-card.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/variants/comp-365.tsx",
+          "type": "registry:component"
+        }
+      ]
+    }
+  ]
+}
