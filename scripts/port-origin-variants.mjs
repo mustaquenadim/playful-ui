@@ -1,0 +1,108 @@
+// Port Origin UI variants into registry-starter/src/components/variants.
+// Usage: node scripts/port-origin-variants.mjs <path-to-originui-checkout>
+// Skips variants listed in scripts/origin-exclude.txt (they fail to typecheck here).
+import fs from "node:fs";
+import path from "node:path";
+
+const ORIGIN = process.argv[2] ?? "../originui";
+const DEST = process.cwd();
+const OUT = path.join(DEST, "src/components/variants");
+
+// Origin category slug -> our primitive name
+const MAP = {
+  accordion: "accordion", alert: "alert", avatar: "avatar", badge: "badge",
+  breadcrumb: "breadcrumb", button: "button", checkbox: "checkbox",
+  dialog: "dialog", dropdown: "dropdown-menu", input: "input",
+  pagination: "pagination", popover: "popover", radio: "radio-group",
+  select: "select", slider: "slider", switch: "switch", table: "table",
+  tabs: "tabs", textarea: "textarea", tooltip: "tooltip",
+};
+const PKGS = new Set([
+  "react", "lucide-react", "radix-ui", "date-fns", "react-day-picker",
+  "sonner", "input-otp", "cmdk", "@tanstack/react-table",
+  "class-variance-authority",
+]);
+const ourUi = new Set(
+  fs.readdirSync(path.join(DEST, "src/components/ui")).map((f) => f.replace(/\.tsx?$/, "")),
+);
+const exclude = new Set(
+  fs.existsSync("scripts/origin-exclude.txt")
+    ? fs.readFileSync("scripts/origin-exclude.txt", "utf8").split(/\s+/).filter(Boolean)
+    : [],
+);
+
+const cfg = fs.readFileSync(path.join(ORIGIN, "config/components.ts"), "utf8");
+const re = /slug: "([^"]+)"[\s\S]*?components: \[([\s\S]*?)\]/g;
+const result = {};
+const seen = new Set();
+let m;
+while ((m = re.exec(cfg))) {
+  const prim = MAP[m[1]];
+  if (!prim) continue;
+  for (const [, name] of m[2].matchAll(/name: "([^"]+)"/g)) {
+    if (exclude.has(name) || seen.has(name)) continue;
+    const src = path.join(ORIGIN, "registry/default/components", `${name}.tsx`);
+    if (!fs.existsSync(src)) continue;
+    let code = fs.readFileSync(src, "utf8");
+    const ok = [...code.matchAll(/from "([^"]+)"/g)].every(([, s]) => {
+      if (s === "@/registry/default/lib/utils") return true;
+      const ui = s.match(/^@\/registry\/default\/ui\/(.+)$/);
+      if (ui) return ourUi.has(ui[1]);
+      return PKGS.has(s);
+    });
+    if (!ok) continue;
+    code = code
+      .replaceAll("@/registry/default/ui/", "@/components/ui/")
+      .replaceAll("@/registry/default/lib/utils", "@/lib/utils")
+      .replace(/(["'])\.\/([\w-]+\.(?:jpg|png))/g, "$1/$2")
+      // Origin's accent is a subtle grey; ours is bright yellow, so use the neutral tokens
+      .replace(/\b(text|border)-accent-foreground\b/g, "$1-foreground")
+      .replace(/\b(bg|border|ring)-accent\b(?!-)/g, "$1-muted");
+    if (!/^["']use client["']/.test(code)) code = `"use client";\n\n${code}`;
+    fs.mkdirSync(OUT, { recursive: true });
+    fs.writeFileSync(path.join(OUT, `${name}.tsx`), code);
+    seen.add(name);
+    (result[prim] ??= []).push(name);
+  }
+}
+
+// drop excluded files left over from a previous run
+for (const f of fs.readdirSync(OUT)) {
+  const n = f.replace(/\.tsx$/, "");
+  if (f !== "index.ts" && !seen.has(n)) fs.rmSync(path.join(OUT, f));
+}
+
+const id = (n) => n.replace(/-(\w)/g, (_, c) => c.toUpperCase()).replace(/^\w/, (c) => c.toUpperCase());
+const meta = Object.fromEntries(
+  JSON.parse(fs.readFileSync(path.join(ORIGIN, "registry.json"), "utf8")).items.map(
+    (i) => [i.name, i.meta ?? {}],
+  ),
+);
+const entry = (n) => {
+  const { colSpan = 1, style = 0 } = meta[n] ?? {};
+  return `{ C: ${id(n)}, span: ${colSpan}, style: ${style} }`;
+};
+const names = Object.values(result).flat();
+const index = [
+  "// Variants ported from Origin UI (MIT) - https://github.com/origin-space/originui",
+  "// Generated; regenerate instead of editing by hand.",
+  'import type { ComponentType } from "react";',
+  "",
+  ...names.map((n) => `import ${id(n)} from "./${n}";`),
+  "",
+  "export type Variant = {",
+  "  // Pagination variants need currentPage/totalPages; others ignore them",
+  "  C: ComponentType<{ currentPage: number; totalPages: number }>;",
+  "  span: number; // 1 = third, 2 = half, 3 = full row",
+  "  style: number; // 1 = centered, 2 = text-center",
+  "};",
+  "",
+  "export const variants: Record<string, Variant[]> = {",
+  ...Object.entries(result).map(
+    ([p, ns]) => `  "${p}": [\n${ns.map((n) => `    ${entry(n)},`).join("\n")}\n  ],`,
+  ),
+  "};",
+  "",
+].join("\n");
+fs.writeFileSync(path.join(OUT, "index.ts"), index);
+console.log(Object.entries(result).map(([p, ns]) => `${p}:${ns.length}`).join(" "), "total", names.length);

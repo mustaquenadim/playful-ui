@@ -1,6 +1,6 @@
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 
 import { ComponentCard } from "@/components/registry/component-card";
 import { Button } from "@/components/ui/button";
@@ -22,6 +22,10 @@ export default async function RegistryItemPage({
 }) {
   const { name } = await params;
   const component = getRegistryItem(name);
+
+  if (component.type === "registry:ui") {
+    redirect(`/ui/${name}`);
+  }
 
   if (!component) {
     notFound();

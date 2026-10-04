@@ -264,7 +264,7 @@ export function RegistrySidebar() {
                         >
                           <Link
                             onClick={() => setOpenMobile(false)}
-                            href={`/registry/${item.name}`}
+                            href={`/ui/${item.name}`}
                           >
                             {item.title}
                           </Link>
