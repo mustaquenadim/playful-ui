@@ -13,31 +13,31 @@ export default function Component() {
       <div className="bg-background overflow-hidden rounded-md border">
         <Table>
           <TableBody>
-            <TableRow className="*:border-border hover:bg-transparent [&>:not(:last-child)]:border-r">
+            <TableRow className="*:border-border hover:bg-transparent dark:hover:bg-transparent [&>:not(:last-child)]:border-r">
               <TableCell className="bg-muted/50 py-2 font-medium">
                 Name
               </TableCell>
               <TableCell className="py-2">David Kim</TableCell>
             </TableRow>
-            <TableRow className="*:border-border hover:bg-transparent [&>:not(:last-child)]:border-r">
+            <TableRow className="*:border-border hover:bg-transparent dark:hover:bg-transparent [&>:not(:last-child)]:border-r">
               <TableCell className="bg-muted/50 py-2 font-medium">
                 Email
               </TableCell>
               <TableCell className="py-2">d.kim@company.com</TableCell>
             </TableRow>
-            <TableRow className="*:border-border hover:bg-transparent [&>:not(:last-child)]:border-r">
+            <TableRow className="*:border-border hover:bg-transparent dark:hover:bg-transparent [&>:not(:last-child)]:border-r">
               <TableCell className="bg-muted/50 py-2 font-medium">
                 Location
               </TableCell>
               <TableCell className="py-2">Seoul, KR</TableCell>
             </TableRow>
-            <TableRow className="*:border-border hover:bg-transparent [&>:not(:last-child)]:border-r">
+            <TableRow className="*:border-border hover:bg-transparent dark:hover:bg-transparent [&>:not(:last-child)]:border-r">
               <TableCell className="bg-muted/50 py-2 font-medium">
                 Status
               </TableCell>
               <TableCell className="py-2">Active</TableCell>
             </TableRow>
-            <TableRow className="*:border-border hover:bg-transparent [&>:not(:last-child)]:border-r">
+            <TableRow className="*:border-border hover:bg-transparent dark:hover:bg-transparent [&>:not(:last-child)]:border-r">
               <TableCell className="bg-muted/50 py-2 font-medium">
                 Balance
               </TableCell>

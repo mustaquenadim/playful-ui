@@ -12,7 +12,7 @@ export default function HoverCardDemo() {
     <HoverCard>
       <HoverCardTrigger asChild>
         <Button
-          className="size-auto overflow-hidden rounded-full bg-transparent p-0 hover:bg-transparent"
+          className="size-auto overflow-hidden rounded-full bg-transparent p-0 hover:bg-transparent dark:hover:bg-transparent"
           aria-label="My profile"
           asChild
         >

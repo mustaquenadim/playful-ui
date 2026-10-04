@@ -69,7 +69,7 @@ export default function Component() {
   return (
     <Table>
       <TableHeader>
-        <TableRow className="*:border-border border-y-0 hover:bg-transparent [&>:not(:last-child)]:border-r">
+        <TableRow className="*:border-border border-y-0 hover:bg-transparent dark:hover:bg-transparent [&>:not(:last-child)]:border-r">
           <TableCell></TableCell>
           <TableHead className="border-b text-center" colSpan={5}>
             <MonitorIcon className="inline-flex" size={16} aria-hidden="true" />
@@ -86,7 +86,7 @@ export default function Component() {
         </TableRow>
       </TableHeader>
       <TableHeader>
-        <TableRow className="*:border-border hover:bg-transparent [&>:not(:last-child)]:border-r">
+        <TableRow className="*:border-border hover:bg-transparent dark:hover:bg-transparent [&>:not(:last-child)]:border-r">
           <TableCell></TableCell>
           {items[0].desktop.map((browser) => (
             <TableHead

@@ -165,7 +165,7 @@ export default function Component() {
       <Table>
         <TableHeader>
           {table.getHeaderGroups().map((headerGroup) => (
-            <TableRow key={headerGroup.id} className="hover:bg-transparent">
+            <TableRow key={headerGroup.id} className="hover:bg-transparent dark:hover:bg-transparent">
               {headerGroup.headers.map((header) => {
                 return (
                   <TableHead key={header.id}>

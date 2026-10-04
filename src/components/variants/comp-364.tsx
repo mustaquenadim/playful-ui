@@ -12,7 +12,7 @@ export default function HoverCardDemo() {
       <div className="flex items-center gap-3">
         <img
           className="shrink-0 rounded-full"
-          src="avatar-40-05.jpg"
+          src="/avatar-40-05.jpg"
           width={40}
           height={40}
           alt="Avatar"
@@ -33,7 +33,7 @@ export default function HoverCardDemo() {
           <div className="flex items-center gap-3">
             <img
               className="shrink-0 rounded-full"
-              src="avatar-40-05.jpg"
+              src="/avatar-40-05.jpg"
               width={40}
               height={40}
               alt="Avatar"

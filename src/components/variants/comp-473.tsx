@@ -63,7 +63,7 @@ export default function Component() {
       <div className="bg-background overflow-hidden rounded-md border">
         <Table>
           <TableHeader>
-            <TableRow className="hover:bg-transparent">
+            <TableRow className="hover:bg-transparent dark:hover:bg-transparent">
               <TableHead className="h-11">
                 <Checkbox id={id} />
               </TableHead>
@@ -89,7 +89,7 @@ export default function Component() {
             ))}
           </TableBody>
           <TableFooter className="bg-transparent">
-            <TableRow className="hover:bg-transparent">
+            <TableRow className="hover:bg-transparent dark:hover:bg-transparent">
               <TableCell colSpan={5}>Total</TableCell>
               <TableCell className="text-right">$2,500.00</TableCell>
             </TableRow>

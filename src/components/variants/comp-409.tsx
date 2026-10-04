@@ -35,7 +35,7 @@ export default function Component() {
       />
       <Button
         variant="secondary"
-        className="bg-muted text-muted-foreground ring-background hover:bg-muted hover:text-foreground flex size-10 items-center justify-center rounded-full text-xs ring-2 shadow-none active:translate-y-0"
+        className="bg-muted text-muted-foreground ring-background hover:bg-muted shadow-none active:translate-y-0 hover:text-foreground flex size-10 items-center justify-center rounded-full text-xs ring-2"
         size="icon"
       >
         +3

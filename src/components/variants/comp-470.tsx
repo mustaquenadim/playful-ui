@@ -57,7 +57,7 @@ export default function Component() {
     <div>
       <Table>
         <TableHeader className="bg-transparent">
-          <TableRow className="*:border-border hover:bg-transparent [&>:not(:last-child)]:border-r">
+          <TableRow className="*:border-border hover:bg-transparent dark:hover:bg-transparent [&>:not(:last-child)]:border-r">
             <TableHead>Name</TableHead>
             <TableHead>Email</TableHead>
             <TableHead>Location</TableHead>
@@ -69,7 +69,7 @@ export default function Component() {
           {items.map((item) => (
             <TableRow
               key={item.id}
-              className="*:border-border hover:bg-transparent [&>:not(:last-child)]:border-r"
+              className="*:border-border hover:bg-transparent dark:hover:bg-transparent [&>:not(:last-child)]:border-r"
             >
               <TableCell className="font-medium">{item.name}</TableCell>
               <TableCell>{item.email}</TableCell>

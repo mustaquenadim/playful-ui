@@ -139,7 +139,7 @@ export default function Component() {
       <div className="[&>div]:max-h-96">
         <Table className="[&_td]:border-border [&_th]:border-border border-separate border-spacing-0 [&_tfoot_td]:border-t [&_th]:border-b [&_tr]:border-none [&_tr:not(:last-child)_td]:border-b">
           <TableHeader className="bg-background/90 sticky top-0 z-10 backdrop-blur-xs">
-            <TableRow className="hover:bg-transparent">
+            <TableRow className="hover:bg-transparent dark:hover:bg-transparent">
               <TableHead>Name</TableHead>
               <TableHead>Email</TableHead>
               <TableHead>Location</TableHead>
@@ -159,7 +159,7 @@ export default function Component() {
             ))}
           </TableBody>
           <TableFooter className="bg-transparent">
-            <TableRow className="hover:bg-transparent">
+            <TableRow className="hover:bg-transparent dark:hover:bg-transparent">
               <TableCell colSpan={4}>Total</TableCell>
               <TableCell className="text-right">$2,500.00</TableCell>
             </TableRow>

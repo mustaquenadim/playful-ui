@@ -61,7 +61,7 @@ export default function Component() {
     <div>
       <Table>
         <TableHeader>
-          <TableRow className="hover:bg-transparent">
+          <TableRow className="hover:bg-transparent dark:hover:bg-transparent">
             <TableHead>Name</TableHead>
             <TableHead>Email</TableHead>
             <TableHead>Location</TableHead>

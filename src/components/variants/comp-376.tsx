@@ -32,7 +32,7 @@ export default function Component() {
       <DropdownMenuContent className="max-w-64">
         <DropdownMenuLabel className="flex items-start gap-3">
           <img
-            src="avatar.jpg"
+            src="/avatar.jpg"
             alt="Avatar"
             width={32}
             height={32}

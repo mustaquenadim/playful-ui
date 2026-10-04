@@ -126,7 +126,7 @@ export default function Component() {
       <Table>
         <TableHeader>
           {table.getHeaderGroups().map((headerGroup) => (
-            <TableRow key={headerGroup.id} className="hover:bg-transparent">
+            <TableRow key={headerGroup.id} className="hover:bg-transparent dark:hover:bg-transparent">
               {headerGroup.headers.map((header) => {
                 return (
                   <TableHead key={header.id}>
@@ -165,7 +165,7 @@ export default function Component() {
           )}
         </TableBody>
         <TableFooter className="bg-transparent">
-          <TableRow className="hover:bg-transparent">
+          <TableRow className="hover:bg-transparent dark:hover:bg-transparent">
             <TableCell colSpan={5}>Total</TableCell>
             <TableCell className="text-right">
               {new Intl.NumberFormat("en-US", {

@@ -58,7 +58,7 @@ export default function Component() {
     <div>
       <Table>
         <TableHeader>
-          <TableRow className="hover:bg-transparent">
+          <TableRow className="hover:bg-transparent dark:hover:bg-transparent">
             <TableHead>Name</TableHead>
             <TableHead>Email</TableHead>
             <TableHead>Location</TableHead>
@@ -82,7 +82,7 @@ export default function Component() {
         </TableBody>
         <tbody aria-hidden="true" className="table-row h-2"></tbody>
         <TableFooter className="bg-transparent">
-          <TableRow className="hover:bg-transparent">
+          <TableRow className="hover:bg-transparent dark:hover:bg-transparent">
             <TableCell colSpan={4}>Total</TableCell>
             <TableCell className="text-right">$2,500.00</TableCell>
           </TableRow>

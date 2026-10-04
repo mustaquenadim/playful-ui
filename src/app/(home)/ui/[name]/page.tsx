@@ -43,8 +43,13 @@ type Props = { params: Promise<{ name: string }> };
 const getPrimitive = (name: string) =>
   getRegistryItems().find((i) => i.name === name && i.type === "registry:ui");
 
+// Primitives whose original demos are hidden on /ui (Origin variants cover them)
+const HIDE_DEMOS = new Set(["accordion"]);
+
 function getCells(name: string): Cell[] {
-  const own = Object.entries(demos[name]?.components ?? {});
+  const own = HIDE_DEMOS.has(name)
+    ? []
+    : Object.entries(demos[name]?.components ?? {});
   const wide = own.length === 1 || WIDE.has(name);
 
   return [

@@ -37,7 +37,7 @@ export default function Component() {
       </div>
       <Button
         variant="secondary"
-        className="text-muted-foreground hover:text-foreground flex items-center justify-center rounded-full bg-transparent px-3 text-xs shadow-none hover:bg-transparent"
+        className="text-muted-foreground hover:text-foreground flex items-center justify-center rounded-full bg-transparent px-3 text-xs shadow-none hover:bg-transparent dark:hover:bg-transparent"
       >
         +3
       </Button>

@@ -22,6 +22,19 @@ const PKGS = new Set([
   "sonner", "input-otp", "cmdk", "@tanstack/react-table",
   "class-variance-authority",
 ]);
+// One-off design fixes for variants that clash with the Playful theme: [find, replace]
+const PATCHES = {
+  // "+3" chip: secondary is bright blue with a 3D shadow here, Origin meant neutral grey
+  "comp-409": [
+    [
+      "bg-secondary text-muted-foreground ring-background hover:bg-secondary",
+      "bg-muted text-muted-foreground ring-background hover:bg-muted shadow-none active:translate-y-0",
+    ],
+  ],
+  // nested filled panels poke out of the rounded last item
+  "comp-352": [["relative border outline-none", "relative overflow-hidden border outline-none"]],
+};
+
 const ourUi = new Set(
   fs.readdirSync(path.join(DEST, "src/components/ui")).map((f) => f.replace(/\.tsx?$/, "")),
 );
@@ -54,10 +67,13 @@ while ((m = re.exec(cfg))) {
     code = code
       .replaceAll("@/registry/default/ui/", "@/components/ui/")
       .replaceAll("@/registry/default/lib/utils", "@/lib/utils")
-      .replace(/(["'])\.\/([\w-]+\.(?:jpg|png))/g, "$1/$2")
+      .replace(/(["'])(?:\.\/)?([\w-]+\.(?:jpg|png))/g, "$1/$2")
       // Origin's accent is a subtle grey; ours is bright yellow, so use the neutral tokens
       .replace(/\b(text|border)-accent-foreground\b/g, "$1-foreground")
-      .replace(/\b(bg|border|ring)-accent\b(?!-)/g, "$1-muted");
+      .replace(/\b(bg|border|ring)-accent\b(?!-)/g, "$1-muted")
+      // our ghost button adds dark:hover:bg-input/50, which plain hover:bg-transparent doesn't override
+      .replace(/(?<![\w:-])hover:bg-transparent\b/g, "hover:bg-transparent dark:hover:bg-transparent");
+    for (const [from, to] of PATCHES[name] ?? []) code = code.replace(from, to);
     if (!/^["']use client["']/.test(code)) code = `"use client";\n\n${code}`;
     fs.mkdirSync(OUT, { recursive: true });
     fs.writeFileSync(path.join(OUT, `${name}.tsx`), code);
