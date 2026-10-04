@@ -37,6 +37,17 @@ export function getBlocks() {
     .sort((a, b) => a.title.localeCompare(b.title));
 }
 
+// ponytail: hand-picked list of demos that need a full row; add names as new wide demos appear
+export const WIDE = new Set([
+  "chart",
+  "data-table",
+  "menubar",
+  "navigation-menu",
+  "resizable",
+  "sidebar",
+  "table",
+]);
+
 export function getUIPrimitives() {
   return getRegistryItems()
     .filter((component) => component.type === "registry:ui")

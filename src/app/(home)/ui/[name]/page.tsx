@@ -6,19 +6,8 @@ import { demos } from "@/app/demo/[name]/index";
 import { CopyCommand } from "@/components/registry/copy-command";
 import { VariantActions } from "@/components/registry/variant-actions";
 import { variants } from "@/components/variants";
-import { getRegistryItems, getUIPrimitives } from "@/lib/registry";
+import { WIDE, getRegistryItems, getUIPrimitives } from "@/lib/registry";
 import { cn } from "@/lib/utils";
-
-// ponytail: hand-picked list of demos that need a full row; add names as new wide demos appear
-const WIDE = new Set([
-  "chart",
-  "data-table",
-  "menubar",
-  "navigation-menu",
-  "resizable",
-  "sidebar",
-  "table",
-]);
 
 // Cell width (1 = third, 2 = half, 3 = full row) and alignment, as in Origin UI
 const SPAN: Record<number, string> = {

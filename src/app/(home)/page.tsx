@@ -1,14 +1,28 @@
 import Link from "next/link";
 
+import { demos } from "@/app/demo/[name]/index";
+
 import { ItemGrid } from "@/components/registry/item-grid";
 import { MCPTabs } from "@/components/registry/mcp-tabs";
+import { variants } from "@/components/variants";
 import {
+  WIDE,
   /* getBlocks, getComponents, */ getUIPrimitives,
 } from "@/lib/registry";
+
+// Card thumbnail: the primitive's first variant, else its first demo
+function preview(name: string) {
+  const v = variants[name]?.[0];
+  if (v) return <v.C currentPage={1} totalPages={10} />;
+  const demo = Object.values(demos[name]?.components ?? {})[0];
+  // wide demos size to their container; don't let the centered flex shrink them
+  return WIDE.has(name) ? <div className="w-full">{demo}</div> : demo;
+}
 
 const pick = ({ name, title }: { name: string; title: string }) => ({
   name,
   title,
+  preview: preview(name),
 });
 
 const sections = [
@@ -41,19 +55,23 @@ export default function Home() {
         <div className="flex flex-col gap-2">
           <h2 className="font-bold text-xl tracking-tight">MCP</h2>
           <p className="mb-4 text-muted-foreground">
-            Integrate this registry with AI IDEs using Model Context Protocol
-            (MCP). This uses the registry&apos;s theme tokens and CSS variables
-            with the Shadcn CLI. Make sure the{" "}
+            Browse, search and install Playful UI components from your AI editor
+            with the shadcn MCP server. Components install with the
+            registry&apos;s{" "}
             <Link href="/r/registry.json">
               <code className="inline text-sm tabular-nums underline">
-                style:theme
+                theme
               </code>
             </Link>{" "}
-            contains the same colors as your{" "}
-            <code className="inline text-sm tabular-nums">tokens.css</code>.
+            tokens and CSS variables.
           </p>
 
-          <MCPTabs rootUrl={process.env.VERCEL_PROJECT_PRODUCTION_URL ?? ""} />
+          <MCPTabs
+            rootUrl={
+              process.env.VERCEL_PROJECT_PRODUCTION_URL ??
+              "playful.ui.mustaquenadim.com"
+            }
+          />
         </div>
       </div>
     </div>

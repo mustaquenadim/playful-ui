@@ -11,84 +11,126 @@ export async function copyToClipboard(value: string) {
   await navigator.clipboard.writeText(value);
 }
 
-export function MCPTabs({ rootUrl }: { rootUrl: string }) {
-  const [tab, setTab] = useState("cursor");
+const mcp = { command: "npx", args: ["shadcn@latest", "mcp"] };
+
+const json = (v: unknown) => JSON.stringify(v, null, 2);
+
+const clients = [
+  {
+    value: "claude",
+    label: "Claude Code",
+    file: ".mcp.json",
+    config: json({ mcpServers: { shadcn: mcp } }),
+  },
+  {
+    value: "cursor",
+    label: "Cursor",
+    file: ".cursor/mcp.json",
+    config: json({ mcpServers: { shadcn: mcp } }),
+  },
+  {
+    value: "vscode",
+    label: "VS Code",
+    file: ".vscode/mcp.json",
+    config: json({ servers: { shadcn: mcp } }),
+  },
+  {
+    value: "windsurf",
+    label: "Windsurf",
+    file: "~/.codeium/windsurf/mcp_config.json",
+    config: json({ mcpServers: { shadcn: mcp } }),
+  },
+];
+
+function CodeBlock({
+  code,
+  children,
+}: {
+  code: string;
+  children?: React.ReactNode;
+}) {
   const [hasCopied, setHasCopied] = useState(false);
 
-  const mcp = {
-    command: "npx -y shadcn@canary registry:mcp",
-    env: {
-      REGISTRY_URL: `https://${rootUrl}/r/registry.json`,
-    },
-  };
-
-  const mcpServer = JSON.stringify(
-    {
-      mcpServers: {
-        shadcn: mcp,
-      },
-    },
-    null,
-    2,
-  );
-
   useEffect(() => {
-    if (hasCopied) {
-      setTimeout(() => {
-        setHasCopied(false);
-      }, 2000);
-    }
+    if (!hasCopied) return;
+    const t = setTimeout(() => setHasCopied(false), 2000);
+    return () => clearTimeout(t);
   }, [hasCopied]);
 
   return (
-    <Tabs value={tab} onValueChange={setTab}>
-      <div className="flex items-center justify-between">
+    <div className="relative">
+      <div className="absolute top-3 right-3 flex gap-2">
+        {children}
+        <Button
+          size="sm"
+          variant="outline"
+          onClick={() => {
+            copyToClipboard(code);
+            setHasCopied(true);
+          }}
+          className="shadow-none"
+        >
+          {hasCopied ? <Check /> : <ClipboardIcon />}
+          Copy
+        </Button>
+      </div>
+
+      <pre className="mt-16 overflow-x-auto rounded-lg border bg-muted p-1 sm:mt-0">
+        <code className="relative rounded bg-transparent p-1 font-mono text-muted-foreground text-sm">
+          {code}
+        </code>
+      </pre>
+    </div>
+  );
+}
+
+export function MCPTabs({ rootUrl }: { rootUrl: string }) {
+  const [tab, setTab] = useState("claude");
+
+  const registries = json({
+    registries: { "@playful": `https://${rootUrl}/r/{name}.json` },
+  });
+
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-2">
+        <p className="text-muted-foreground text-sm">
+          1. Add the registry to your{" "}
+          <code className="inline text-sm tabular-nums">components.json</code>
+        </p>
+        <CodeBlock code={registries} />
+      </div>
+
+      <Tabs value={tab} onValueChange={setTab}>
+        <p className="mb-2 text-muted-foreground text-sm">
+          2. Add the shadcn MCP server to your editor
+        </p>
         <TabsList>
-          <TabsTrigger value="cursor">Cursor</TabsTrigger>
-          <TabsTrigger value="windsurf">Windsurf</TabsTrigger>
+          {clients.map((c) => (
+            <TabsTrigger key={c.value} value={c.value}>
+              {c.label}
+            </TabsTrigger>
+          ))}
         </TabsList>
-      </div>
 
-      <TabsContent value="cursor">
-        <p className="text-muted-foreground text-sm">
-          Click Add to Cursor or copy and paste the code into{" "}
-          <code className="inline text-sm tabular-nums">.cursor/mcp.json</code>
-        </p>
-      </TabsContent>
+        {clients.map((c) => (
+          <TabsContent key={c.value} value={c.value} className="space-y-2">
+            <p className="text-muted-foreground text-sm">
+              {c.value === "cursor" && "Click Add to Cursor or "}
+              {c.value === "cursor" ? "copy" : "Copy"} and paste the code into{" "}
+              <code className="inline text-sm tabular-nums">{c.file}</code>
+            </p>
+            <CodeBlock code={c.config}>
+              {c.value === "cursor" && <AddToCursor mcp={mcp} />}
+            </CodeBlock>
+          </TabsContent>
+        ))}
+      </Tabs>
 
-      <TabsContent value="windsurf">
-        <p className="text-muted-foreground text-sm">
-          Copy and paste the code into{" "}
-          <code className="inline text-sm tabular-nums">
-            .codeium/windsurf/mcp_config.json
-          </code>
-        </p>
-      </TabsContent>
-
-      <div className="relative">
-        <div className="absolute top-3 right-3 flex gap-2">
-          {tab === "cursor" && <AddToCursor mcp={mcp} />}
-
-          <Button
-            size="sm"
-            variant="outline"
-            onClick={() => {
-              copyToClipboard(mcpServer);
-              setHasCopied(true);
-            }}
-            className="shadow-none"
-          >
-            {hasCopied ? <Check /> : <ClipboardIcon />}
-            Copy
-          </Button>
-        </div>
-
-        <pre className="mt-16 overflow-x-auto rounded-lg border bg-muted p-1 sm:mt-0">
-          <code className="relative rounded bg-transparent p-1 font-mono text-muted-foreground text-sm">
-            {mcpServer}
-          </code>
-        </pre>
-      </div>
-    </Tabs>
+      <p className="text-muted-foreground text-sm">
+        3. Ask your assistant, e.g. &ldquo;Add the accordion from the @playful
+        registry&rdquo;.
+      </p>
+    </div>
   );
 }

@@ -2,13 +2,13 @@
 
 import { Search } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
+import { type ReactNode, useState } from "react";
 
 type Section = {
   title: string;
   label: string;
   basePath: string;
-  items: { name: string; title: string }[];
+  items: { name: string; title: string; preview?: ReactNode }[];
 };
 
 export function ItemGrid({ sections }: { sections: Section[] }) {
@@ -68,22 +68,34 @@ function ItemCard({
   title,
   label,
   href,
+  preview,
 }: {
   title: string;
   label: string;
   href: string;
+  preview?: ReactNode;
 }) {
   return (
     <div className="space-y-3 text-center">
-      {/* ponytail: text cover instead of screenshot thumbs; add /public/thumbs/<name>.png when you have them */}
       <Link
         href={href}
         tabIndex={-1}
         className="peer flex aspect-[268/198] items-center justify-center overflow-hidden rounded-xl border bg-background bg-[radial-gradient(var(--color-border)_1px,transparent_1px)] bg-size-[16px_16px] p-6 transition-colors hover:border-ring"
       >
-        <span className="font-bold text-2xl text-foreground/80 tracking-tight">
-          {title}
-        </span>
+        {preview ? (
+          // ponytail: live demo scaled to 55%; very wide demos get cropped, give them a dedicated thumb if that bothers you
+          <div
+            inert
+            aria-hidden
+            className="pointer-events-none flex w-[480px] shrink-0 scale-[.55] select-none items-center justify-center"
+          >
+            {preview}
+          </div>
+        ) : (
+          <span className="font-bold text-2xl text-foreground/80 tracking-tight">
+            {title}
+          </span>
+        )}
       </Link>
       <div className="peer-hover:[&_a]:underline">
         <h3>
