@@ -1,0 +1,179 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: #ffffff;
+  --foreground: #4b4b4b;
+
+  --card: #ffffff;
+  --card-foreground: #4b4b4b;
+
+  --popover: #ffffff;
+  --popover-foreground: #4b4b4b;
+
+  --primary: #58cc02;
+  --primary-foreground: #ffffff;
+  --primary-shadow: #58a700;
+
+  --secondary: #1cb0f6;
+  --secondary-foreground: #ffffff;
+  --secondary-shadow: #1899d6;
+
+  --muted: #f7f7f7;
+  --muted-foreground: #777777;
+
+  --accent: #ffc800;
+  --accent-foreground: #4b4b4b;
+
+  --destructive: #ff4b4b;
+  --destructive-foreground: #ffffff;
+  --destructive-shadow: #ea2b2b;
+
+  --border: #e5e5e5;
+  --input: #e5e5e5;
+  --ring: #1cb0f6;
+
+  --chart-1: #58cc02;
+  --chart-2: #1cb0f6;
+  --chart-3: #ffc800;
+  --chart-4: #ff4b4b;
+  --chart-5: #ce82ff;
+
+  --sidebar: #ffffff;
+  --sidebar-foreground: #4b4b4b;
+  --sidebar-primary: #58cc02;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #ddf4ff;
+  --sidebar-accent-foreground: #1899d6;
+  --sidebar-border: #e5e5e5;
+  --sidebar-ring: #1cb0f6;
+
+  --radius: 1rem;
+}
+
+.dark {
+  --background: #131f24;
+  --foreground: #f1f7fb;
+
+  --card: #202f36;
+  --card-foreground: #f1f7fb;
+
+  --popover: #202f36;
+  --popover-foreground: #f1f7fb;
+
+  --primary: #58cc02;
+  --primary-foreground: #131f24;
+  --primary-shadow: #58a700;
+
+  --secondary: #1cb0f6;
+  --secondary-foreground: #131f24;
+  --secondary-shadow: #1899d6;
+
+  --muted: #202f36;
+  --muted-foreground: #a0aeb5;
+
+  --accent: #ffc800;
+  --accent-foreground: #131f24;
+
+  --destructive: #ff4b4b;
+  --destructive-foreground: #131f24;
+  --destructive-shadow: #ea2b2b;
+
+  --border: #37464f;
+  --input: #37464f;
+  --ring: #1cb0f6;
+
+  --chart-1: #58cc02;
+  --chart-2: #1cb0f6;
+  --chart-3: #ffc800;
+  --chart-4: #ff4b4b;
+  --chart-5: #ce82ff;
+
+  --sidebar: #131f24;
+  --sidebar-foreground: #f1f7fb;
+  --sidebar-primary: #58cc02;
+  --sidebar-primary-foreground: #131f24;
+  --sidebar-accent: #202f36;
+  --sidebar-accent-foreground: #1cb0f6;
+  --sidebar-border: #37464f;
+  --sidebar-ring: #1cb0f6;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-shadow: var(--primary-shadow);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary-shadow: var(--secondary-shadow);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-destructive-shadow: var(--destructive-shadow);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-mono: var(--font-mono);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --shadow-2xs: var(--shadow-2xs);
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow: var(--shadow);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-xl: var(--shadow-xl);
+  --shadow-2xl: var(--shadow-2xl);
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-border, currentColor);
+  }
+
+  body {
+    @apply font-sans font-bold;
+  }
+}
