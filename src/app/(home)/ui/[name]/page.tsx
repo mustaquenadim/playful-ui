@@ -6,7 +6,13 @@ import { demos } from "@/app/demo/[name]/index";
 import { CopyCommand } from "@/components/registry/copy-command";
 import { VariantActions } from "@/components/registry/variant-actions";
 import { variants } from "@/components/variants";
-import { WIDE, getRegistryItems, getUIPrimitives } from "@/lib/registry";
+import {
+  BASE_URL,
+  HIDE_DEMOS,
+  WIDE,
+  getRegistryItems,
+  getUIPrimitives,
+} from "@/lib/registry";
 import { cn } from "@/lib/utils";
 
 // Cell width (1 = third, 2 = half, 3 = full row) and alignment, as in Origin UI
@@ -33,15 +39,6 @@ type Props = { params: Promise<{ name: string }> };
 
 const getPrimitive = (name: string) =>
   getRegistryItems().find((i) => i.name === name && i.type === "registry:ui");
-
-// Primitives whose original demos are hidden on /ui (Origin variants cover them)
-const HIDE_DEMOS = new Set([
-  "accordion",
-  "pagination",
-  "select",
-  "switch",
-  "tooltip",
-]);
 
 function getCells(name: string): Cell[] {
   const own = HIDE_DEMOS.has(name)
@@ -88,7 +85,7 @@ export default async function UIPrimitivePage({ params }: Props) {
     notFound();
   }
 
-  const baseUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL ?? "";
+  const baseUrl = BASE_URL;
 
   return (
     <>

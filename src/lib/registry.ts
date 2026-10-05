@@ -37,6 +37,10 @@ export function getBlocks() {
     .sort((a, b) => a.title.localeCompare(b.title));
 }
 
+// Host used in install commands and registry URLs (no protocol)
+export const BASE_URL =
+  process.env.VERCEL_PROJECT_PRODUCTION_URL || "playful.ui.mustaquenadim.com";
+
 // ponytail: hand-picked list of demos that need a full row; add names as new wide demos appear
 export const WIDE = new Set([
   "chart",
@@ -46,6 +50,15 @@ export const WIDE = new Set([
   "resizable",
   "sidebar",
   "table",
+]);
+
+// Primitives whose original demos are hidden on /ui (Origin variants cover them)
+export const HIDE_DEMOS = new Set([
+  "accordion",
+  "pagination",
+  "select",
+  "switch",
+  "tooltip",
 ]);
 
 export function getUIPrimitives() {

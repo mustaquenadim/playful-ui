@@ -4,7 +4,7 @@ import { notFound, redirect } from "next/navigation";
 
 import { ComponentCard } from "@/components/registry/component-card";
 import { Button } from "@/components/ui/button";
-import { getRegistryItem, getRegistryItems } from "@/lib/registry";
+import { BASE_URL, getRegistryItem, getRegistryItems } from "@/lib/registry";
 import { getPrompt } from "@/lib/utils";
 
 export async function generateStaticParams() {
@@ -49,7 +49,7 @@ export default async function RegistryItemPage({
 
       <ComponentCard
         component={component}
-        baseUrl={process.env.VERCEL_PROJECT_PRODUCTION_URL ?? ""}
+        baseUrl={BASE_URL}
         prompt={getPrompt()}
       />
     </div>

@@ -6,6 +6,8 @@ import { ItemGrid } from "@/components/registry/item-grid";
 import { MCPTabs } from "@/components/registry/mcp-tabs";
 import { variants } from "@/components/variants";
 import {
+  BASE_URL,
+  HIDE_DEMOS,
   WIDE,
   /* getBlocks, getComponents, */ getUIPrimitives,
 } from "@/lib/registry";
@@ -19,9 +21,19 @@ function preview(name: string) {
   return WIDE.has(name) ? <div className="w-full">{demo}</div> : demo;
 }
 
+// Same cells as /ui/[name]: visible demos + variants
+function count(name: string) {
+  const own = HIDE_DEMOS.has(name)
+    ? 0
+    : Object.keys(demos[name]?.components ?? {}).length;
+  const n = own + (variants[name]?.length ?? 0);
+  return `${n} ${n === 1 ? "Component" : "Components"}`;
+}
+
 const pick = ({ name, title }: { name: string; title: string }) => ({
   name,
   title,
+  label: count(name),
   preview: preview(name),
 });
 
@@ -66,12 +78,7 @@ export default function Home() {
             tokens and CSS variables.
           </p>
 
-          <MCPTabs
-            rootUrl={
-              process.env.VERCEL_PROJECT_PRODUCTION_URL ??
-              "playful.ui.mustaquenadim.com"
-            }
-          />
+          <MCPTabs rootUrl={BASE_URL} />
         </div>
       </div>
     </div>

@@ -40,9 +40,6 @@ export default function HomeLayout({
               <RegistryLogo />
             </Link>
             <div className="flex items-center gap-4 md:gap-8">
-              <Link href="/tokens" className="text-sm hover:underline">
-                Design Tokens
-              </Link>
               <a
                 href={GITHUB_URL}
                 target="_blank"

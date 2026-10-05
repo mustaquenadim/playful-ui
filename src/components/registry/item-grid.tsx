@@ -8,7 +8,12 @@ type Section = {
   title: string;
   label: string;
   basePath: string;
-  items: { name: string; title: string; preview?: ReactNode }[];
+  items: {
+    name: string;
+    title: string;
+    label?: string;
+    preview?: ReactNode;
+  }[];
 };
 
 export function ItemGrid({ sections }: { sections: Section[] }) {
@@ -52,7 +57,7 @@ export function ItemGrid({ sections }: { sections: Section[] }) {
                 <ItemCard
                   key={item.name}
                   {...item}
-                  label={section.label}
+                  label={item.label ?? section.label}
                   href={`${section.basePath}/${item.name}`}
                 />
               ))}
@@ -78,8 +83,7 @@ function ItemCard({
   return (
     <div className="space-y-3 text-center">
       {/* div + overlay link: previews contain their own <a>, which can't nest in a link */}
-      <div className="peer relative flex aspect-[268/198] items-center justify-center overflow-hidden rounded-xl border bg-background bg-[radial-gradient(var(--color-border)_1px,transparent_1px)] bg-size-[16px_16px] p-6 transition-colors hover:border-ring"
-      >
+      <div className="peer relative flex aspect-[268/198] items-center justify-center overflow-hidden rounded-xl border bg-background bg-[radial-gradient(var(--color-border)_1px,transparent_1px)] bg-size-[16px_16px] p-6 transition-colors hover:border-ring">
         {preview ? (
           // ponytail: live demo scaled to 55%; very wide demos get cropped, give them a dedicated thumb if that bothers you
           <div

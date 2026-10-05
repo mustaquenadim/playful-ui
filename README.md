@@ -1,146 +1,167 @@
-<a href="https://registry-starter.vercel.app/">
+<a href="https://playful.ui.mustaquenadim.com">
   <h1 align="center">Playful UI</h1>
 </a>
 
 <p align="center">
-    Registry Starter is a free, open-source template built with Next.js and Shadcn/ui Registry to accelerate your AI-Native Design System.
+  A playful, shadcn-compatible component registry. Browse the primitives and hundreds of variants,
+  then install them with the shadcn CLI, open them in v0, or pull them in through MCP.
 </p>
 
 <p align="center">
-  <a href="#deploy-your-own"><strong>Deploy Your Own</strong></a> ·
-  <a href="#open-in-v0"><strong>Open in v0</strong></a> ·
-  <a href="#theming"><strong>Theming</strong></a> ·
+  <a href="https://playful.ui.mustaquenadim.com"><strong>Live site</strong></a> ·
+  <a href="#install-a-component"><strong>Install</strong></a> ·
   <a href="#mcp"><strong>MCP</strong></a> ·
-  <a href="#authentication"><strong>Authentication</strong></a> ·
   <a href="#running-locally"><strong>Running Locally</strong></a> ·
-  <a href="#file-structure"><strong>File Structure</strong></a> ·
-  <a href="https://ui.shadcn.com/docs/registry"><strong>Read Docs</strong></a>
+  <a href="#project-structure"><strong>Structure</strong></a> ·
+  <a href="https://ui.shadcn.com/docs/registry"><strong>shadcn Registry Docs</strong></a>
 </p>
 <br/>
 
-## Deploy Your Own
+<!-- TODO: add a current screenshot of the site, e.g. ![Playful UI](./public/preview.png) -->
 
-You can deploy your own version of the Next.js Registry Starter to Vercel with one click:
+## Requirements
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fregistry-starter&project-name=my-registry&repository-name=my-registry&demo-title=Registry%20Starter&demo-description=Registry%20Starter%20is%20a%20free%2C%20open-source%20template%20built%20with%20Next.js%20and%20Shadcn%2Fui%20Registry%20to%20accelerate%20your%20AI-Native%20Design%20System.&demo-url=https%3A%2F%2Fregistry-starter.vercel.app&demo-image=%2F%2Fregistry-starter.vercel.app%2Fpreview.png)
+Components follow shadcn/ui conventions and target:
 
-## Open in v0
+- React 19
+- Tailwind CSS v4 (Tailwind v3 projects will not style correctly)
+- A project initialised with `npx shadcn@latest init`
 
-[![Open in v0](https://registry-starter.vercel.app/open-in-v0.svg)](https://v0.dev/chat/api/open?title=Dashboard+Kit&prompt=These+are+existing+design+system+styles+and+files.+Please+utilize+them+alongside+base+components+to+build.&url=https%3A%2F%2Fregistry-starter.vercel.app%2Fr%2Fdashboard.json)
+Some components need extra libraries (`react-day-picker`, `input-otp`, `cmdk`, `@tanstack/react-table`, `date-fns`).
+Each item lists its dependencies in its registry JSON, so the shadcn CLI installs them for you.
 
-This registry application also exposes `Open in v0` buttons for each component. Once this application is deployed, the
-`Open in v0` button redirects to [`v0.dev`](https://v0.dev) with a prepopulated prompt and a URL pointing back to this
-registry's `/r/${component_name}.json` endpoint. This endpoint will provide v0 the necessary file information, content,
-and metadata to start your v0 chat with your component, theme, and other related code.
+## Install a component
 
-These `/r/${component_name}.json` files are generated using `shadcn/ui` during the `build` and `dev` based on the
-repository's [`registry.json`](./registry.json). For more information, refer to the
-[documentation](https://ui.shadcn.com/docs/registry/registry-json).
+Every item is served as JSON from `/r/<name>.json`. Add one to any shadcn project:
 
-## Theming
-
-To use a custom theme for all the components, all you need to do is modify the CSS tokens in
-[`globals.css`](./app/globals.css). More information on these practices can be found
-on [ui.shadcn.com/docs](https://ui.shadcn.com/docs).
-
-#### Fonts
-
-To use custom fonts, you can either use [
-`next/font/google`](https://nextjs.org/docs/pages/getting-started/fonts#google-fonts) or the 
-[`@font-face`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face) CSS rule in your 
-[`globals.css`](./app/globals.css).
-
-```css
-@font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    src: url('https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm45xW5rygbi49c.woff2') format('woff2'),
-    url('https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm45xW5rygbj49c.woff') format('woff');
-}
+```bash
+npx shadcn@latest add https://playful.ui.mustaquenadim.com/r/button.json
 ```
 
-If you use `@font-face`, ensure you modify [`globals.css`](app/globals.css) tailwind configuration to map 
-your custom font variables to Tailwind fonts. Refer to this
-[Tailwind documentation](https://tailwindcss.com/docs/font-family#customizing-your-theme)
+Variants work the same way (`/r/comp-334.json`, etc.) and pull in their base primitive automatically.
+Each component page also has buttons to copy the command (pnpm / npm / yarn / bun), copy the code,
+or **Open in v0**. The full index lives at [`/r/registry.json`](https://playful.ui.mustaquenadim.com/r/registry.json).
 
 ## MCP
 
-To use this registry with MCP, you must also edit [`registry.json`](./registry.json)'s first
-`registry-item` named `theme`. This `registry:theme` item not only contains the tailwind configuration, but it also
-contains your design tokens / CSS variables.
+Use the registry from Claude Code, Cursor, VS Code or Windsurf via the shadcn MCP server.
 
-The `shadcn/ui` CLI's MCP command will use the entire `registy.json` file, so it must be put in the `/public` folder
-with all of your `registry:item`s. This will enable you to use your registry in tools like Cursor & Windsurf.
+1. Register the namespace in your project's `components.json`:
 
-## Authentication
+   ```json
+   {
+     "registries": {
+       "@playful": "https://playful.ui.mustaquenadim.com/r/{name}.json"
+     }
+   }
+   ```
 
-To protect your registry, you must first protect your `registry.json` and all `registry:item` JSON files.  
-This is made possible with an environment variable and basic Next.js Middleware.
+2. Add the MCP server to your client config (e.g. `.mcp.json` for Claude Code, `.cursor/mcp.json` for Cursor):
 
-1. Create new `REGISTRY_AUTH_TOKEN`. For example, you can generate one:
+   ```json
+   {
+     "mcpServers": {
+       "shadcn": { "command": "npx", "args": ["shadcn@latest", "mcp"] }
+     }
+   }
+   ```
 
-    ```bash
-    node -e "console.log(crypto.randomBytes(32).toString('base64url'))"
-    ```
+   VS Code uses `.vscode/mcp.json` with a top-level `servers` key instead of `mcpServers`.
 
-2. Add new `middleware.ts` file to protect `/r/:path` routes
-
-    ```ts
-    // middleware.ts
-    import { NextResponse } from "next/server";
-    import type { NextRequest } from "next/server";
-    
-    export const config = { matcher: "/r/:path*" };
-    
-    export function middleware(request: NextRequest) {
-      const token = request.nextUrl.searchParams.get("token");
-    
-      if (token == null || token !== process.env.REGISTRY_AUTH_TOKEN) {
-        return new NextResponse("Unauthorized", { status: 401 });
-      }
-    
-      return NextResponse.next();
-    }
-    
-    ```
-
-When using `Open in v0`, the v0 platform will use the `token` search parameter to authenticate with your Registry:
-
-```ts
-const v0Url = `https://v0.dev/chat/api/open?url=https%3A%2F%2Fregistry-starter.vercel.app%2Fr%2Faccordion.json&token=${process.env.REGISTRY_AUTH_TOKEN}`
-```
-
-> [!NOTE]  
-> This method only protects the `/r/:path` routes, this does NOT protect the Registry's UI / component previews. If you
-> choose to protect the UI / component preview, you must ensure the `registry.json` and all `registry:item`s are 
-> publicly accessible or protected using the `token` search parameter. This ensures v0 and other AI Tools have access to
-> use the registry
-    
+3. Ask your assistant, e.g. "Add the accordion from the @playful registry".
 
 ## Running locally
 
+Requires Node.js and pnpm 10.
+
 ```bash
 pnpm install
+cp .env.example .env.local   # optional, sets the production URL used in commands
 pnpm dev
 ```
 
-Your app should now be running on [localhost:3000](http://localhost:3000).
+Open [localhost:3000](http://localhost:3000).
 
-## File Structure
+| Script                | What it does                                                           |
+| --------------------- | ---------------------------------------------------------------------- |
+| `pnpm dev`            | Builds the registry JSON, then starts Next.js in dev mode              |
+| `pnpm build`          | Builds the registry JSON, then a production Next.js build              |
+| `pnpm registry:build` | Runs `shadcn build` on `registry-variants.json` and `registry.json` into `public/r` |
+| `pnpm lint`           | Biome check (`pnpm lint:fix` to apply fixes)                           |
 
-`app/(registry)` routes contains the registry pages.
+CI (`.github/workflows/pr.yml`) runs build and lint on every pull request.
 
-`app/demo` routes contains various UI primitives, Components, or Blocks (based on `registry.json`)
+## Theming
 
-`@/components` contains all components used in the registry
+Design tokens live in [`src/app/globals.css`](./src/app/globals.css) and are mirrored in the `theme`
+item of [`registry.json`](./registry.json), which is what consumers (and MCP) install. Change both
+together. Fonts (Quicksand, Montserrat, Geist Mono) are loaded with `next/font/google` in
+[`src/app/layout.tsx`](./src/app/layout.tsx). A live token overview is at `/tokens`.
 
-`@/components/ui` contains all `shadcn/ui` UI Primitives used in the registry
+## Variants
 
-`@/components/registry` contains all components for this Registry Starter application
+The variants in `src/components/variants` are ported from [Origin UI](https://originui.com)
+and restyled for the Playful theme:
 
-`@/hooks` contains all React hooks
+```bash
+node scripts/port-origin-variants.mjs ../originui
+```
 
-`@/lib` contains all business logic & utils
+The script maps Origin categories to our primitives, applies the theme fixes listed in `PATCHES`,
+skips anything in `scripts/origin-exclude.txt`, and regenerates `registry-variants.json`.
 
-`@/layouts` contains all v0 layouts used in `registry.json`
+## Authentication (optional)
+
+The registry is public. To protect `/r/*`, set `REGISTRY_AUTH_TOKEN` and add a middleware that
+checks a `token` search param:
+
+```ts
+// src/middleware.ts
+import { type NextRequest, NextResponse } from "next/server";
+
+export const config = { matcher: "/r/:path*" };
+
+export function middleware(request: NextRequest) {
+  const token = request.nextUrl.searchParams.get("token");
+  if (token !== process.env.REGISTRY_AUTH_TOKEN) {
+    return new NextResponse("Unauthorized", { status: 401 });
+  }
+  return NextResponse.next();
+}
+```
+
+v0 passes the same `token` param when opening components. This only protects the JSON, not the preview pages.
+
+## Project structure
+
+```
+registry.json             primitives, blocks and the theme item
+registry-variants.json    Origin-derived variants (generated)
+registry/                 shared files shipped with items (layouts, utils, css)
+scripts/                  Origin UI porting script
+src/app/(home)            home page and /ui/[name] primitive pages
+src/app/(registry)        /registry/[name] item pages and /tokens
+src/app/demo/[name]       standalone previews, also reused for home thumbnails
+src/components/ui         shadcn/ui primitives
+src/components/variants   comp-*.tsx variants
+src/components/registry   site chrome: cards, sidebar, copy, v0, MCP tabs
+public/r                  built registry JSON (generated)
+```
+
+## Contributing
+
+Issues and pull requests are welcome at
+[github.com/mustaquenadim/playful-ui](https://github.com/mustaquenadim/playful-ui).
+Run `pnpm lint` and `pnpm build` before opening a PR; CI runs both.
+
+## Credits
+
+Built on Vercel's [Registry Starter](https://github.com/vercel/registry-starter) and
+[shadcn/ui](https://ui.shadcn.com). Variants adapted from [Origin UI](https://originui.com)
+(MIT, Copyright (c) 2025 Origin UI).
+
+## License
+
+Licensed under the [MIT License](./LICENSE). The Origin UI copyright notice is kept in that file.
+
+Questions or feedback: [@mustaquenadim](https://github.com/mustaquenadim) on GitHub.
