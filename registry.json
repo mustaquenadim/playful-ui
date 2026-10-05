@@ -88,21 +88,6 @@
           "target": "src/app/globals.css"
         },
         {
-          "path": "registry/common/postcss.config.mjs",
-          "type": "registry:file",
-          "target": "postcss.config.mjs"
-        },
-        {
-          "path": "registry/common/tsconfig.json",
-          "type": "registry:file",
-          "target": "tsconfig.json"
-        },
-        {
-          "path": "registry/common/package.json",
-          "type": "registry:file",
-          "target": "package.json"
-        },
-        {
           "path": "registry/common/utils.ts",
           "type": "registry:lib",
           "target": "src/lib/utils.ts"
@@ -115,12 +100,36 @@
       ]
     },
     {
+      "name": "starter-config",
+      "type": "registry:item",
+      "title": "Starter Config",
+      "description": "Project config files (package.json, tsconfig, postcss) for the starter apps",
+      "files": [
+        {
+          "path": "registry/common/postcss.config.mjs",
+          "type": "registry:file",
+          "target": "postcss.config.mjs"
+        },
+        {
+          "path": "registry/common/tsconfig.json",
+          "type": "registry:file",
+          "target": "tsconfig.json"
+        },
+        {
+          "path": "registry/common/package.template.json",
+          "type": "registry:file",
+          "target": "package.json"
+        }
+      ]
+    },
+    {
       "name": "blank",
       "type": "registry:block",
       "title": "Blank",
       "description": "A blank application with all brand components and code",
       "registryDependencies": [
         "https://playful.ui.mustaquenadim.com/r/theme.json",
+        "https://playful.ui.mustaquenadim.com/r/starter-config.json",
         "https://playful.ui.mustaquenadim.com/r/brand-header.json",
         "https://playful.ui.mustaquenadim.com/r/brand-sidebar.json",
         "https://playful.ui.mustaquenadim.com/r/login.json",
@@ -197,6 +206,7 @@
       "description": "A dashboard application with your brand themed components",
       "registryDependencies": [
         "https://playful.ui.mustaquenadim.com/r/theme.json",
+        "https://playful.ui.mustaquenadim.com/r/starter-config.json",
         "https://playful.ui.mustaquenadim.com/r/brand-header.json",
         "https://playful.ui.mustaquenadim.com/r/brand-sidebar.json",
         "https://playful.ui.mustaquenadim.com/r/login.json",
@@ -273,6 +283,7 @@
       "description": "A store application with your brand themed components",
       "registryDependencies": [
         "https://playful.ui.mustaquenadim.com/r/theme.json",
+        "https://playful.ui.mustaquenadim.com/r/starter-config.json",
         "https://playful.ui.mustaquenadim.com/r/brand-header.json",
         "https://playful.ui.mustaquenadim.com/r/brand-sidebar.json",
         "https://playful.ui.mustaquenadim.com/r/login.json",

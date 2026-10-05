@@ -4,13 +4,16 @@ import type { Metadata } from "next";
 import { Geist_Mono, Montserrat, Quicksand } from "next/font/google";
 import type { ReactNode } from "react";
 
+import { BASE_URL } from "@/lib/registry";
 import { cn } from "@/lib/utils";
 
 import "@/app/globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(`https://${BASE_URL}`),
   title: "Playful UI",
-  description: "Starter to help build a Shadcn Registry using Tailwind v4",
+  description:
+    "A playful, shadcn-compatible component registry. Browse the primitives and hundreds of variants, then install them with the shadcn CLI.",
   icons: [{ rel: "icon", url: "/favicon.svg", type: "image/svg+xml" }],
 };
 
@@ -45,10 +48,6 @@ export default function RootLayout({
         "bg-background text-foreground",
       )}
     >
-      <meta
-        name="robots"
-        content="noindex, nofollow, noarchive, nosnippet, noimageindex"
-      />
       <body className="flex grow">
         {children}
         <Analytics />

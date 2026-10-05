@@ -1,11 +1,13 @@
 import type { MetadataRoute } from "next";
 
+import { BASE_URL } from "@/lib/registry";
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: "*",
-      disallow: "/",
+      allow: "/",
     },
-    sitemap: [],
+    sitemap: `https://${BASE_URL}/sitemap.xml`,
   };
 }
