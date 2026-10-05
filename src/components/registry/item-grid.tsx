@@ -77,10 +77,8 @@ function ItemCard({
 }) {
   return (
     <div className="space-y-3 text-center">
-      <Link
-        href={href}
-        tabIndex={-1}
-        className="peer flex aspect-[268/198] items-center justify-center overflow-hidden rounded-xl border bg-background bg-[radial-gradient(var(--color-border)_1px,transparent_1px)] bg-size-[16px_16px] p-6 transition-colors hover:border-ring"
+      {/* div + overlay link: previews contain their own <a>, which can't nest in a link */}
+      <div className="peer relative flex aspect-[268/198] items-center justify-center overflow-hidden rounded-xl border bg-background bg-[radial-gradient(var(--color-border)_1px,transparent_1px)] bg-size-[16px_16px] p-6 transition-colors hover:border-ring"
       >
         {preview ? (
           // ponytail: live demo scaled to 55%; very wide demos get cropped, give them a dedicated thumb if that bothers you
@@ -96,7 +94,13 @@ function ItemCard({
             {title}
           </span>
         )}
-      </Link>
+        <Link
+          href={href}
+          tabIndex={-1}
+          aria-hidden
+          className="absolute inset-0"
+        />
+      </div>
       <div className="peer-hover:[&_a]:underline">
         <h3>
           <Link href={href} className="font-medium text-sm hover:underline">
