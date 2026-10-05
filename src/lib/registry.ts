@@ -38,8 +38,7 @@ export function getBlocks() {
 }
 
 // Host used in install commands and registry URLs (no protocol)
-export const BASE_URL =
-  process.env.VERCEL_PROJECT_PRODUCTION_URL || "playful.ui.mustaquenadim.com";
+export const BASE_URL = "playful.ui.mustaquenadim.com";
 
 // ponytail: hand-picked list of demos that need a full row; add names as new wide demos appear
 export const WIDE = new Set([
