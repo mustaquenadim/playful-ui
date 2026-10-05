@@ -1,14 +1,14 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "Playful UI variants",
-  "homepage": "https://playful.ui.mustaquenadim.com",
+  "homepage": "https://ui.playful.mustaquenadim.com",
   "items": [
     {
       "name": "comp-334",
       "type": "registry:component",
       "title": "accordion comp-334",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -26,7 +26,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -40,7 +40,7 @@
       "type": "registry:component",
       "title": "accordion comp-336",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -58,7 +58,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -75,7 +75,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -93,7 +93,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -111,7 +111,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -129,7 +129,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -147,7 +147,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -165,7 +165,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -179,7 +179,7 @@
       "type": "registry:component",
       "title": "accordion comp-344",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -197,7 +197,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -211,7 +211,7 @@
       "type": "registry:component",
       "title": "accordion comp-346",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -229,7 +229,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -243,7 +243,7 @@
       "type": "registry:component",
       "title": "accordion comp-348",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -261,7 +261,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -275,7 +275,7 @@
       "type": "registry:component",
       "title": "accordion comp-350",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -293,7 +293,7 @@
         "radix-ui"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json"
       ],
       "files": [
         {
@@ -310,8 +310,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json",
-        "https://playful.ui.mustaquenadim.com/r/collapsible.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json",
+        "https://ui.playful.mustaquenadim.com/r/collapsible.json"
       ],
       "files": [
         {
@@ -328,8 +328,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/accordion.json",
-        "https://playful.ui.mustaquenadim.com/r/collapsible.json"
+        "https://ui.playful.mustaquenadim.com/r/accordion.json",
+        "https://ui.playful.mustaquenadim.com/r/collapsible.json"
       ],
       "files": [
         {
@@ -523,7 +523,7 @@
       "type": "registry:component",
       "title": "avatar comp-390",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/avatar.json"
+        "https://ui.playful.mustaquenadim.com/r/avatar.json"
       ],
       "files": [
         {
@@ -537,7 +537,7 @@
       "type": "registry:component",
       "title": "avatar comp-391",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/avatar.json"
+        "https://ui.playful.mustaquenadim.com/r/avatar.json"
       ],
       "files": [
         {
@@ -554,7 +554,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/avatar.json"
+        "https://ui.playful.mustaquenadim.com/r/avatar.json"
       ],
       "files": [
         {
@@ -568,7 +568,7 @@
       "type": "registry:component",
       "title": "avatar comp-393",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/avatar.json"
+        "https://ui.playful.mustaquenadim.com/r/avatar.json"
       ],
       "files": [
         {
@@ -582,7 +582,7 @@
       "type": "registry:component",
       "title": "avatar comp-394",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/avatar.json"
+        "https://ui.playful.mustaquenadim.com/r/avatar.json"
       ],
       "files": [
         {
@@ -596,7 +596,7 @@
       "type": "registry:component",
       "title": "avatar comp-395",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/avatar.json"
+        "https://ui.playful.mustaquenadim.com/r/avatar.json"
       ],
       "files": [
         {
@@ -610,7 +610,7 @@
       "type": "registry:component",
       "title": "avatar comp-396",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/avatar.json"
+        "https://ui.playful.mustaquenadim.com/r/avatar.json"
       ],
       "files": [
         {
@@ -624,7 +624,7 @@
       "type": "registry:component",
       "title": "avatar comp-397",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/avatar.json"
+        "https://ui.playful.mustaquenadim.com/r/avatar.json"
       ],
       "files": [
         {
@@ -638,8 +638,8 @@
       "type": "registry:component",
       "title": "avatar comp-398",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/avatar.json",
-        "https://playful.ui.mustaquenadim.com/r/badge.json"
+        "https://ui.playful.mustaquenadim.com/r/avatar.json",
+        "https://ui.playful.mustaquenadim.com/r/badge.json"
       ],
       "files": [
         {
@@ -653,8 +653,8 @@
       "type": "registry:component",
       "title": "avatar comp-399",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/avatar.json",
-        "https://playful.ui.mustaquenadim.com/r/badge.json"
+        "https://ui.playful.mustaquenadim.com/r/avatar.json",
+        "https://ui.playful.mustaquenadim.com/r/badge.json"
       ],
       "files": [
         {
@@ -776,7 +776,7 @@
       "type": "registry:component",
       "title": "avatar comp-409",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -790,7 +790,7 @@
       "type": "registry:component",
       "title": "avatar comp-410",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -804,7 +804,7 @@
       "type": "registry:component",
       "title": "avatar comp-411",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -830,7 +830,7 @@
       "type": "registry:component",
       "title": "badge comp-413",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json"
       ],
       "files": [
         {
@@ -844,7 +844,7 @@
       "type": "registry:component",
       "title": "badge comp-414",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json"
       ],
       "files": [
         {
@@ -861,7 +861,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json"
       ],
       "files": [
         {
@@ -875,7 +875,7 @@
       "type": "registry:component",
       "title": "badge comp-416",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json"
       ],
       "files": [
         {
@@ -889,7 +889,7 @@
       "type": "registry:component",
       "title": "badge comp-417",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json"
       ],
       "files": [
         {
@@ -903,7 +903,7 @@
       "type": "registry:component",
       "title": "badge comp-418",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json"
       ],
       "files": [
         {
@@ -920,7 +920,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json"
       ],
       "files": [
         {
@@ -934,7 +934,7 @@
       "type": "registry:component",
       "title": "badge comp-420",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json"
       ],
       "files": [
         {
@@ -948,7 +948,7 @@
       "type": "registry:component",
       "title": "badge comp-421",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json"
       ],
       "files": [
         {
@@ -962,7 +962,7 @@
       "type": "registry:component",
       "title": "badge comp-422",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json"
       ],
       "files": [
         {
@@ -979,8 +979,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json",
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json",
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json"
       ],
       "files": [
         {
@@ -997,7 +997,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json"
       ],
       "files": [
         {
@@ -1014,7 +1014,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json"
       ],
       "files": [
         {
@@ -1028,8 +1028,8 @@
       "type": "registry:component",
       "title": "breadcrumb comp-446",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/breadcrumb.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/breadcrumb.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -1046,8 +1046,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/breadcrumb.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/breadcrumb.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -1064,7 +1064,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/breadcrumb.json"
+        "https://ui.playful.mustaquenadim.com/r/breadcrumb.json"
       ],
       "files": [
         {
@@ -1081,7 +1081,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/breadcrumb.json"
+        "https://ui.playful.mustaquenadim.com/r/breadcrumb.json"
       ],
       "files": [
         {
@@ -1098,7 +1098,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/breadcrumb.json"
+        "https://ui.playful.mustaquenadim.com/r/breadcrumb.json"
       ],
       "files": [
         {
@@ -1115,7 +1115,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/breadcrumb.json"
+        "https://ui.playful.mustaquenadim.com/r/breadcrumb.json"
       ],
       "files": [
         {
@@ -1132,7 +1132,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/breadcrumb.json"
+        "https://ui.playful.mustaquenadim.com/r/breadcrumb.json"
       ],
       "files": [
         {
@@ -1149,8 +1149,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/breadcrumb.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/breadcrumb.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -1164,7 +1164,7 @@
       "type": "registry:component",
       "title": "button comp-78",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1178,7 +1178,7 @@
       "type": "registry:component",
       "title": "button comp-79",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1192,7 +1192,7 @@
       "type": "registry:component",
       "title": "button comp-80",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1209,7 +1209,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1226,7 +1226,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1243,7 +1243,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1260,7 +1260,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1277,7 +1277,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1294,7 +1294,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1311,7 +1311,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1328,7 +1328,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1342,7 +1342,7 @@
       "type": "registry:component",
       "title": "button comp-89",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1359,7 +1359,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1376,7 +1376,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1390,7 +1390,7 @@
       "type": "registry:component",
       "title": "button comp-92",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1407,7 +1407,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1421,7 +1421,7 @@
       "type": "registry:component",
       "title": "button comp-94",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1438,8 +1438,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/avatar.json",
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/avatar.json",
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1456,7 +1456,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1473,7 +1473,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1490,7 +1490,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1507,8 +1507,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/tooltip.json"
       ],
       "files": [
         {
@@ -1522,7 +1522,7 @@
       "type": "registry:component",
       "title": "button comp-100",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1539,8 +1539,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/toggle.json",
-        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+        "https://ui.playful.mustaquenadim.com/r/toggle.json",
+        "https://ui.playful.mustaquenadim.com/r/tooltip.json"
       ],
       "files": [
         {
@@ -1557,8 +1557,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json",
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json",
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1575,7 +1575,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/toggle.json"
+        "https://ui.playful.mustaquenadim.com/r/toggle.json"
       ],
       "files": [
         {
@@ -1592,7 +1592,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1609,7 +1609,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1626,7 +1626,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1643,8 +1643,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/tooltip.json"
       ],
       "files": [
         {
@@ -1661,7 +1661,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1678,7 +1678,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/toggle-group.json"
+        "https://ui.playful.mustaquenadim.com/r/toggle-group.json"
       ],
       "files": [
         {
@@ -1695,7 +1695,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1709,7 +1709,7 @@
       "type": "registry:component",
       "title": "button comp-109",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/toggle-group.json"
+        "https://ui.playful.mustaquenadim.com/r/toggle-group.json"
       ],
       "files": [
         {
@@ -1723,7 +1723,7 @@
       "type": "registry:component",
       "title": "button comp-110",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/toggle-group.json"
+        "https://ui.playful.mustaquenadim.com/r/toggle-group.json"
       ],
       "files": [
         {
@@ -1740,7 +1740,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1757,7 +1757,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1774,7 +1774,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1791,7 +1791,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1808,8 +1808,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -1826,7 +1826,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1843,7 +1843,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1860,7 +1860,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1877,7 +1877,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1894,7 +1894,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1911,7 +1911,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1928,7 +1928,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1945,7 +1945,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -1959,8 +1959,8 @@
       "type": "registry:component",
       "title": "checkbox comp-132",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -1974,8 +1974,8 @@
       "type": "registry:component",
       "title": "checkbox comp-133",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -1989,8 +1989,8 @@
       "type": "registry:component",
       "title": "checkbox comp-134",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2004,8 +2004,8 @@
       "type": "registry:component",
       "title": "checkbox comp-135",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2019,8 +2019,8 @@
       "type": "registry:component",
       "title": "checkbox comp-136",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2034,8 +2034,8 @@
       "type": "registry:component",
       "title": "checkbox comp-137",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2049,8 +2049,8 @@
       "type": "registry:component",
       "title": "checkbox comp-138",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2064,8 +2064,8 @@
       "type": "registry:component",
       "title": "checkbox comp-139",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2079,8 +2079,8 @@
       "type": "registry:component",
       "title": "checkbox comp-151",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2094,8 +2094,8 @@
       "type": "registry:component",
       "title": "checkbox comp-140",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2109,8 +2109,8 @@
       "type": "registry:component",
       "title": "checkbox comp-141",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2124,9 +2124,9 @@
       "type": "registry:component",
       "title": "checkbox comp-142",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2140,8 +2140,8 @@
       "type": "registry:component",
       "title": "checkbox comp-143",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2155,8 +2155,8 @@
       "type": "registry:component",
       "title": "checkbox comp-144",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2170,8 +2170,8 @@
       "type": "registry:component",
       "title": "checkbox comp-145",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2185,8 +2185,8 @@
       "type": "registry:component",
       "title": "checkbox comp-146",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2203,8 +2203,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2218,7 +2218,7 @@
       "type": "registry:component",
       "title": "checkbox comp-149",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json"
       ],
       "files": [
         {
@@ -2247,8 +2247,8 @@
       "type": "registry:component",
       "title": "dialog comp-313",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/alert-dialog.json",
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/alert-dialog.json",
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -2265,8 +2265,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/alert-dialog.json",
-        "https://playful.ui.mustaquenadim.com/r/button.json"
+        "https://ui.playful.mustaquenadim.com/r/alert-dialog.json",
+        "https://ui.playful.mustaquenadim.com/r/button.json"
       ],
       "files": [
         {
@@ -2280,8 +2280,8 @@
       "type": "registry:component",
       "title": "dialog comp-315",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dialog.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dialog.json"
       ],
       "files": [
         {
@@ -2295,9 +2295,9 @@
       "type": "registry:component",
       "title": "dialog comp-316",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dialog.json",
-        "https://playful.ui.mustaquenadim.com/r/scroll-area.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dialog.json",
+        "https://ui.playful.mustaquenadim.com/r/scroll-area.json"
       ],
       "files": [
         {
@@ -2311,8 +2311,8 @@
       "type": "registry:component",
       "title": "dialog comp-317",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dialog.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dialog.json"
       ],
       "files": [
         {
@@ -2326,8 +2326,8 @@
       "type": "registry:component",
       "title": "dialog comp-318",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dialog.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dialog.json"
       ],
       "files": [
         {
@@ -2341,8 +2341,8 @@
       "type": "registry:component",
       "title": "dialog comp-319",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dialog.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dialog.json"
       ],
       "files": [
         {
@@ -2359,10 +2359,10 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dialog.json",
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dialog.json",
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2379,9 +2379,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dialog.json",
-        "https://playful.ui.mustaquenadim.com/r/input.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dialog.json",
+        "https://ui.playful.mustaquenadim.com/r/input.json"
       ],
       "files": [
         {
@@ -2395,9 +2395,9 @@
       "type": "registry:component",
       "title": "dialog comp-322",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dialog.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dialog.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -2411,11 +2411,11 @@
       "type": "registry:component",
       "title": "dialog comp-323",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dialog.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dialog.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -2432,8 +2432,8 @@
         "input-otp"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dialog.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dialog.json"
       ],
       "files": [
         {
@@ -2447,10 +2447,10 @@
       "type": "registry:component",
       "title": "dialog comp-325",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dialog.json",
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dialog.json",
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2464,11 +2464,11 @@
       "type": "registry:component",
       "title": "dialog comp-326",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/dialog.json",
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/dialog.json",
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2485,11 +2485,11 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dialog.json",
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dialog.json",
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/tooltip.json"
       ],
       "files": [
         {
@@ -2506,10 +2506,10 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dialog.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dialog.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -2526,8 +2526,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dialog.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dialog.json"
       ],
       "files": [
         {
@@ -2544,7 +2544,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/command.json"
+        "https://ui.playful.mustaquenadim.com/r/command.json"
       ],
       "files": [
         {
@@ -2561,8 +2561,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -2579,8 +2579,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -2597,8 +2597,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -2615,8 +2615,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -2633,8 +2633,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -2651,8 +2651,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -2669,8 +2669,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -2687,8 +2687,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -2705,8 +2705,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -2723,8 +2723,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -2741,8 +2741,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -2759,9 +2759,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/avatar.json",
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/avatar.json",
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -2778,8 +2778,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -2796,8 +2796,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -2814,8 +2814,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json"
       ],
       "files": [
         {
@@ -2829,8 +2829,8 @@
       "type": "registry:component",
       "title": "input comp-01",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2844,8 +2844,8 @@
       "type": "registry:component",
       "title": "input comp-02",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2859,8 +2859,8 @@
       "type": "registry:component",
       "title": "input comp-03",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2874,8 +2874,8 @@
       "type": "registry:component",
       "title": "input comp-04",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2889,8 +2889,8 @@
       "type": "registry:component",
       "title": "input comp-05",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2904,8 +2904,8 @@
       "type": "registry:component",
       "title": "input comp-06",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2919,8 +2919,8 @@
       "type": "registry:component",
       "title": "input comp-07",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2934,8 +2934,8 @@
       "type": "registry:component",
       "title": "input comp-08",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2952,8 +2952,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2970,8 +2970,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -2985,8 +2985,8 @@
       "type": "registry:component",
       "title": "input comp-11",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3000,8 +3000,8 @@
       "type": "registry:component",
       "title": "input comp-12",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3015,8 +3015,8 @@
       "type": "registry:component",
       "title": "input comp-13",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3030,8 +3030,8 @@
       "type": "registry:component",
       "title": "input comp-14",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3045,8 +3045,8 @@
       "type": "registry:component",
       "title": "input comp-15",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3060,8 +3060,8 @@
       "type": "registry:component",
       "title": "input comp-16",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3078,8 +3078,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3096,8 +3096,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3111,8 +3111,8 @@
       "type": "registry:component",
       "title": "input comp-21",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3126,9 +3126,9 @@
       "type": "registry:component",
       "title": "input comp-22",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3145,8 +3145,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3163,8 +3163,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3178,8 +3178,8 @@
       "type": "registry:component",
       "title": "input comp-25",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3196,8 +3196,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3214,8 +3214,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3229,8 +3229,8 @@
       "type": "registry:component",
       "title": "input comp-30",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3244,7 +3244,7 @@
       "type": "registry:component",
       "title": "input comp-31",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json"
       ],
       "files": [
         {
@@ -3258,7 +3258,7 @@
       "type": "registry:component",
       "title": "input comp-32",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json"
       ],
       "files": [
         {
@@ -3287,7 +3287,7 @@
         "input-otp"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3305,7 +3305,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3322,7 +3322,7 @@
         "input-otp"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3339,8 +3339,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3354,8 +3354,8 @@
       "type": "registry:component",
       "title": "input comp-52",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3372,9 +3372,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/tooltip.json"
       ],
       "files": [
         {
@@ -3388,8 +3388,8 @@
       "type": "registry:component",
       "title": "input comp-486",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json"
       ],
       "files": [
         {
@@ -3406,8 +3406,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/pagination.json"
       ],
       "files": [
         {
@@ -3424,8 +3424,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/pagination.json"
       ],
       "files": [
         {
@@ -3442,8 +3442,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/pagination.json"
       ],
       "files": [
         {
@@ -3460,7 +3460,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+        "https://ui.playful.mustaquenadim.com/r/pagination.json"
       ],
       "files": [
         {
@@ -3474,8 +3474,8 @@
       "type": "registry:component",
       "title": "pagination comp-458",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/pagination.json"
       ],
       "files": [
         {
@@ -3489,7 +3489,7 @@
       "type": "registry:component",
       "title": "pagination comp-459",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+        "https://ui.playful.mustaquenadim.com/r/pagination.json"
       ],
       "files": [
         {
@@ -3510,7 +3510,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+        "https://ui.playful.mustaquenadim.com/r/pagination.json"
       ],
       "files": [
         {
@@ -3531,8 +3531,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/pagination.json"
       ],
       "files": [
         {
@@ -3553,8 +3553,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/pagination.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/pagination.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -3575,9 +3575,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/pagination.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/pagination.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -3594,8 +3594,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/pagination.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/pagination.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -3612,9 +3612,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/pagination.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/pagination.json"
       ],
       "files": [
         {
@@ -3635,10 +3635,10 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/popover.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/popover.json"
       ],
       "files": [
         {
@@ -3655,9 +3655,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json",
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/popover.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json",
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/popover.json"
       ],
       "files": [
         {
@@ -3674,9 +3674,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json",
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/popover.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json",
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/popover.json"
       ],
       "files": [
         {
@@ -3690,8 +3690,8 @@
       "type": "registry:component",
       "title": "popover comp-384",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/popover.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/popover.json"
       ],
       "files": [
         {
@@ -3705,8 +3705,8 @@
       "type": "registry:component",
       "title": "popover comp-385",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/popover.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/popover.json"
       ],
       "files": [
         {
@@ -3723,8 +3723,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/popover.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/popover.json"
       ],
       "files": [
         {
@@ -3738,9 +3738,9 @@
       "type": "registry:component",
       "title": "popover comp-388",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/popover.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/popover.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -3754,8 +3754,8 @@
       "type": "registry:component",
       "title": "radio-group comp-152",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -3769,8 +3769,8 @@
       "type": "registry:component",
       "title": "radio-group comp-153",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -3784,8 +3784,8 @@
       "type": "registry:component",
       "title": "radio-group comp-154",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -3799,8 +3799,8 @@
       "type": "registry:component",
       "title": "radio-group comp-155",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -3814,9 +3814,9 @@
       "type": "registry:component",
       "title": "radio-group comp-156",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -3830,7 +3830,7 @@
       "type": "registry:component",
       "title": "radio-group comp-158",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -3844,8 +3844,8 @@
       "type": "registry:component",
       "title": "radio-group comp-159",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -3859,8 +3859,8 @@
       "type": "registry:component",
       "title": "radio-group comp-160",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -3874,8 +3874,8 @@
       "type": "registry:component",
       "title": "radio-group comp-161",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -3892,8 +3892,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -3907,7 +3907,7 @@
       "type": "registry:component",
       "title": "radio-group comp-164",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -3921,8 +3921,8 @@
       "type": "registry:component",
       "title": "radio-group comp-165",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -3936,9 +3936,9 @@
       "type": "registry:component",
       "title": "radio-group comp-166",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -3952,7 +3952,7 @@
       "type": "registry:component",
       "title": "radio-group comp-167",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -3966,7 +3966,7 @@
       "type": "registry:component",
       "title": "radio-group comp-168",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -3983,7 +3983,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -3997,7 +3997,7 @@
       "type": "registry:component",
       "title": "radio-group comp-170",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/radio-group.json"
+        "https://ui.playful.mustaquenadim.com/r/radio-group.json"
       ],
       "files": [
         {
@@ -4011,8 +4011,8 @@
       "type": "registry:component",
       "title": "select comp-203",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4026,8 +4026,8 @@
       "type": "registry:component",
       "title": "select comp-204",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4044,8 +4044,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4059,8 +4059,8 @@
       "type": "registry:component",
       "title": "select comp-206",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4074,8 +4074,8 @@
       "type": "registry:component",
       "title": "select comp-207",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4089,8 +4089,8 @@
       "type": "registry:component",
       "title": "select comp-208",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4104,8 +4104,8 @@
       "type": "registry:component",
       "title": "select comp-209",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4119,8 +4119,8 @@
       "type": "registry:component",
       "title": "select comp-210",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4134,8 +4134,8 @@
       "type": "registry:component",
       "title": "select comp-211",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4149,8 +4149,8 @@
       "type": "registry:component",
       "title": "select comp-212",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4164,8 +4164,8 @@
       "type": "registry:component",
       "title": "select comp-213",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4179,8 +4179,8 @@
       "type": "registry:component",
       "title": "select comp-214",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4194,8 +4194,8 @@
       "type": "registry:component",
       "title": "select comp-215",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4209,7 +4209,7 @@
       "type": "registry:component",
       "title": "select comp-216",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4223,7 +4223,7 @@
       "type": "registry:component",
       "title": "select comp-217",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4237,8 +4237,8 @@
       "type": "registry:component",
       "title": "select comp-218",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4252,8 +4252,8 @@
       "type": "registry:component",
       "title": "select comp-219",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4267,8 +4267,8 @@
       "type": "registry:component",
       "title": "select comp-220",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4282,8 +4282,8 @@
       "type": "registry:component",
       "title": "select comp-221",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4297,8 +4297,8 @@
       "type": "registry:component",
       "title": "select comp-224",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4312,8 +4312,8 @@
       "type": "registry:component",
       "title": "select comp-225",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4327,8 +4327,8 @@
       "type": "registry:component",
       "title": "select comp-226",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4342,8 +4342,8 @@
       "type": "registry:component",
       "title": "select comp-227",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4357,8 +4357,8 @@
       "type": "registry:component",
       "title": "select comp-228",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json"
       ],
       "files": [
         {
@@ -4375,10 +4375,10 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/command.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/popover.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/command.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/popover.json"
       ],
       "files": [
         {
@@ -4395,10 +4395,10 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/command.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/popover.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/command.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/popover.json"
       ],
       "files": [
         {
@@ -4415,10 +4415,10 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/command.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/popover.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/command.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/popover.json"
       ],
       "files": [
         {
@@ -4435,10 +4435,10 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/command.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/popover.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/command.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/popover.json"
       ],
       "files": [
         {
@@ -4455,10 +4455,10 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/command.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/popover.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/command.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/popover.json"
       ],
       "files": [
         {
@@ -4472,8 +4472,8 @@
       "type": "registry:component",
       "title": "slider comp-240",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/slider.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/slider.json"
       ],
       "files": [
         {
@@ -4487,8 +4487,8 @@
       "type": "registry:component",
       "title": "slider comp-241",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/slider.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/slider.json"
       ],
       "files": [
         {
@@ -4502,8 +4502,8 @@
       "type": "registry:component",
       "title": "slider comp-242",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/slider.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/slider.json"
       ],
       "files": [
         {
@@ -4517,8 +4517,8 @@
       "type": "registry:component",
       "title": "slider comp-243",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/slider.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/slider.json"
       ],
       "files": [
         {
@@ -4532,8 +4532,8 @@
       "type": "registry:component",
       "title": "slider comp-244",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/slider.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/slider.json"
       ],
       "files": [
         {
@@ -4547,8 +4547,8 @@
       "type": "registry:component",
       "title": "slider comp-245",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/slider.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/slider.json"
       ],
       "files": [
         {
@@ -4562,8 +4562,8 @@
       "type": "registry:component",
       "title": "slider comp-246",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/slider.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/slider.json"
       ],
       "files": [
         {
@@ -4577,8 +4577,8 @@
       "type": "registry:component",
       "title": "slider comp-247",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/slider.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/slider.json"
       ],
       "files": [
         {
@@ -4592,8 +4592,8 @@
       "type": "registry:component",
       "title": "slider comp-248",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/slider.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/slider.json"
       ],
       "files": [
         {
@@ -4607,8 +4607,8 @@
       "type": "registry:component",
       "title": "slider comp-250",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/slider.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/slider.json"
       ],
       "files": [
         {
@@ -4622,8 +4622,8 @@
       "type": "registry:component",
       "title": "slider comp-251",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/slider.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/slider.json"
       ],
       "files": [
         {
@@ -4640,8 +4640,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/slider.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/slider.json"
       ],
       "files": [
         {
@@ -4655,8 +4655,8 @@
       "type": "registry:component",
       "title": "slider comp-256",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/slider.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/slider.json"
       ],
       "files": [
         {
@@ -4673,9 +4673,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/slider.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/slider.json"
       ],
       "files": [
         {
@@ -4689,9 +4689,9 @@
       "type": "registry:component",
       "title": "slider comp-260",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/slider.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/slider.json"
       ],
       "files": [
         {
@@ -4705,8 +4705,8 @@
       "type": "registry:component",
       "title": "slider comp-261",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/slider.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/slider.json"
       ],
       "files": [
         {
@@ -4720,8 +4720,8 @@
       "type": "registry:component",
       "title": "switch comp-172",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4735,8 +4735,8 @@
       "type": "registry:component",
       "title": "switch comp-173",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4750,8 +4750,8 @@
       "type": "registry:component",
       "title": "switch comp-174",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4765,8 +4765,8 @@
       "type": "registry:component",
       "title": "switch comp-175",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4780,8 +4780,8 @@
       "type": "registry:component",
       "title": "switch comp-176",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4795,8 +4795,8 @@
       "type": "registry:component",
       "title": "switch comp-177",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4810,8 +4810,8 @@
       "type": "registry:component",
       "title": "switch comp-178",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4825,8 +4825,8 @@
       "type": "registry:component",
       "title": "switch comp-179",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4840,7 +4840,7 @@
       "type": "registry:component",
       "title": "switch comp-180",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4857,8 +4857,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4875,7 +4875,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4892,8 +4892,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4910,8 +4910,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4925,8 +4925,8 @@
       "type": "registry:component",
       "title": "switch comp-185",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4940,8 +4940,8 @@
       "type": "registry:component",
       "title": "switch comp-186",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4955,8 +4955,8 @@
       "type": "registry:component",
       "title": "switch comp-187",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4970,8 +4970,8 @@
       "type": "registry:component",
       "title": "switch comp-188",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/switch.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/switch.json"
       ],
       "files": [
         {
@@ -4985,7 +4985,7 @@
       "type": "registry:component",
       "title": "table comp-466",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -4999,7 +4999,7 @@
       "type": "registry:component",
       "title": "table comp-467",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5013,7 +5013,7 @@
       "type": "registry:component",
       "title": "table comp-468",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5027,7 +5027,7 @@
       "type": "registry:component",
       "title": "table comp-469",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5041,7 +5041,7 @@
       "type": "registry:component",
       "title": "table comp-470",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5055,7 +5055,7 @@
       "type": "registry:component",
       "title": "table comp-471",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5069,8 +5069,8 @@
       "type": "registry:component",
       "title": "table comp-472",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5084,8 +5084,8 @@
       "type": "registry:component",
       "title": "table comp-473",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5099,7 +5099,7 @@
       "type": "registry:component",
       "title": "table comp-474",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5113,7 +5113,7 @@
       "type": "registry:component",
       "title": "table comp-475",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5130,7 +5130,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5147,9 +5147,9 @@
         "@tanstack/react-table"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json",
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json",
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5167,11 +5167,11 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json",
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json",
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5189,7 +5189,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5207,9 +5207,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json",
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json",
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5227,10 +5227,10 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json",
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json",
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5248,13 +5248,13 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json",
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/pagination.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json",
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json",
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/pagination.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json",
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5272,12 +5272,12 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json",
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/pagination.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json",
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json",
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/pagination.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json",
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5299,17 +5299,17 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/alert-dialog.json",
-        "https://playful.ui.mustaquenadim.com/r/badge.json",
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/checkbox.json",
-        "https://playful.ui.mustaquenadim.com/r/dropdown-menu.json",
-        "https://playful.ui.mustaquenadim.com/r/input.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/pagination.json",
-        "https://playful.ui.mustaquenadim.com/r/popover.json",
-        "https://playful.ui.mustaquenadim.com/r/select.json",
-        "https://playful.ui.mustaquenadim.com/r/table.json"
+        "https://ui.playful.mustaquenadim.com/r/alert-dialog.json",
+        "https://ui.playful.mustaquenadim.com/r/badge.json",
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/checkbox.json",
+        "https://ui.playful.mustaquenadim.com/r/dropdown-menu.json",
+        "https://ui.playful.mustaquenadim.com/r/input.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/pagination.json",
+        "https://ui.playful.mustaquenadim.com/r/popover.json",
+        "https://ui.playful.mustaquenadim.com/r/select.json",
+        "https://ui.playful.mustaquenadim.com/r/table.json"
       ],
       "files": [
         {
@@ -5323,7 +5323,7 @@
       "type": "registry:component",
       "title": "tabs comp-426",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5337,7 +5337,7 @@
       "type": "registry:component",
       "title": "tabs comp-427",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5351,7 +5351,7 @@
       "type": "registry:component",
       "title": "tabs comp-428",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5365,7 +5365,7 @@
       "type": "registry:component",
       "title": "tabs comp-429",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5379,7 +5379,7 @@
       "type": "registry:component",
       "title": "tabs comp-430",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5393,7 +5393,7 @@
       "type": "registry:component",
       "title": "tabs comp-431",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5407,7 +5407,7 @@
       "type": "registry:component",
       "title": "tabs comp-432",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5424,9 +5424,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json",
-        "https://playful.ui.mustaquenadim.com/r/scroll-area.json",
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json",
+        "https://ui.playful.mustaquenadim.com/r/scroll-area.json",
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5443,8 +5443,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/scroll-area.json",
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/scroll-area.json",
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5461,8 +5461,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/scroll-area.json",
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/scroll-area.json",
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5479,8 +5479,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/scroll-area.json",
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/scroll-area.json",
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5497,9 +5497,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json",
-        "https://playful.ui.mustaquenadim.com/r/scroll-area.json",
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json",
+        "https://ui.playful.mustaquenadim.com/r/scroll-area.json",
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5516,7 +5516,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5530,8 +5530,8 @@
       "type": "registry:component",
       "title": "tabs comp-439",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json",
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json",
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5548,9 +5548,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json",
-        "https://playful.ui.mustaquenadim.com/r/tabs.json",
-        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json",
+        "https://ui.playful.mustaquenadim.com/r/tabs.json",
+        "https://ui.playful.mustaquenadim.com/r/tooltip.json"
       ],
       "files": [
         {
@@ -5567,9 +5567,9 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/badge.json",
-        "https://playful.ui.mustaquenadim.com/r/tabs.json",
-        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+        "https://ui.playful.mustaquenadim.com/r/badge.json",
+        "https://ui.playful.mustaquenadim.com/r/tabs.json",
+        "https://ui.playful.mustaquenadim.com/r/tooltip.json"
       ],
       "files": [
         {
@@ -5583,7 +5583,7 @@
       "type": "registry:component",
       "title": "tabs comp-442",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5597,7 +5597,7 @@
       "type": "registry:component",
       "title": "tabs comp-443",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5614,7 +5614,7 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5628,7 +5628,7 @@
       "type": "registry:component",
       "title": "tabs comp-445",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/tabs.json"
+        "https://ui.playful.mustaquenadim.com/r/tabs.json"
       ],
       "files": [
         {
@@ -5642,8 +5642,8 @@
       "type": "registry:component",
       "title": "textarea comp-59",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5657,8 +5657,8 @@
       "type": "registry:component",
       "title": "textarea comp-60",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5672,8 +5672,8 @@
       "type": "registry:component",
       "title": "textarea comp-61",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5687,8 +5687,8 @@
       "type": "registry:component",
       "title": "textarea comp-62",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5702,8 +5702,8 @@
       "type": "registry:component",
       "title": "textarea comp-63",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5717,8 +5717,8 @@
       "type": "registry:component",
       "title": "textarea comp-64",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5732,8 +5732,8 @@
       "type": "registry:component",
       "title": "textarea comp-65",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5747,8 +5747,8 @@
       "type": "registry:component",
       "title": "textarea comp-66",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5762,8 +5762,8 @@
       "type": "registry:component",
       "title": "textarea comp-67",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5777,9 +5777,9 @@
       "type": "registry:component",
       "title": "textarea comp-68",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5793,9 +5793,9 @@
       "type": "registry:component",
       "title": "textarea comp-69",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5809,9 +5809,9 @@
       "type": "registry:component",
       "title": "textarea comp-70",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5825,8 +5825,8 @@
       "type": "registry:component",
       "title": "textarea comp-71",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5840,7 +5840,7 @@
       "type": "registry:component",
       "title": "textarea comp-72",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5866,8 +5866,8 @@
       "type": "registry:component",
       "title": "textarea comp-75",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5881,8 +5881,8 @@
       "type": "registry:component",
       "title": "textarea comp-76",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5896,8 +5896,8 @@
       "type": "registry:component",
       "title": "textarea comp-77",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/label.json",
-        "https://playful.ui.mustaquenadim.com/r/textarea.json"
+        "https://ui.playful.mustaquenadim.com/r/label.json",
+        "https://ui.playful.mustaquenadim.com/r/textarea.json"
       ],
       "files": [
         {
@@ -5911,8 +5911,8 @@
       "type": "registry:component",
       "title": "tooltip comp-354",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/tooltip.json"
       ],
       "files": [
         {
@@ -5926,8 +5926,8 @@
       "type": "registry:component",
       "title": "tooltip comp-355",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/tooltip.json"
       ],
       "files": [
         {
@@ -5941,8 +5941,8 @@
       "type": "registry:component",
       "title": "tooltip comp-356",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/tooltip.json"
       ],
       "files": [
         {
@@ -5956,8 +5956,8 @@
       "type": "registry:component",
       "title": "tooltip comp-357",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/tooltip.json"
       ],
       "files": [
         {
@@ -5974,8 +5974,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/tooltip.json"
       ],
       "files": [
         {
@@ -5989,8 +5989,8 @@
       "type": "registry:component",
       "title": "tooltip comp-359",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/tooltip.json"
       ],
       "files": [
         {
@@ -6007,8 +6007,8 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/tooltip.json"
       ],
       "files": [
         {
@@ -6022,8 +6022,8 @@
       "type": "registry:component",
       "title": "tooltip comp-361",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/tooltip.json"
       ],
       "files": [
         {
@@ -6037,8 +6037,8 @@
       "type": "registry:component",
       "title": "tooltip comp-362",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/tooltip.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/tooltip.json"
       ],
       "files": [
         {
@@ -6052,8 +6052,8 @@
       "type": "registry:component",
       "title": "tooltip comp-363",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/button.json",
-        "https://playful.ui.mustaquenadim.com/r/hover-card.json"
+        "https://ui.playful.mustaquenadim.com/r/button.json",
+        "https://ui.playful.mustaquenadim.com/r/hover-card.json"
       ],
       "files": [
         {
@@ -6067,7 +6067,7 @@
       "type": "registry:component",
       "title": "tooltip comp-364",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/hover-card.json"
+        "https://ui.playful.mustaquenadim.com/r/hover-card.json"
       ],
       "files": [
         {
@@ -6081,7 +6081,7 @@
       "type": "registry:component",
       "title": "tooltip comp-365",
       "registryDependencies": [
-        "https://playful.ui.mustaquenadim.com/r/hover-card.json"
+        "https://ui.playful.mustaquenadim.com/r/hover-card.json"
       ],
       "files": [
         {

@@ -1,4 +1,4 @@
-<a href="https://playful.ui.mustaquenadim.com">
+<a href="https://ui.playful.mustaquenadim.com">
   <h1 align="center">Playful UI</h1>
 </a>
 
@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://playful.ui.mustaquenadim.com"><strong>Live site</strong></a> ·
+  <a href="https://ui.playful.mustaquenadim.com"><strong>Live site</strong></a> ·
   <a href="#install-a-component"><strong>Install</strong></a> ·
   <a href="#mcp"><strong>MCP</strong></a> ·
   <a href="#running-locally"><strong>Running Locally</strong></a> ·
@@ -35,12 +35,12 @@ Each item lists its dependencies in its registry JSON, so the shadcn CLI install
 Every item is served as JSON from `/r/<name>.json`. Add one to any shadcn project:
 
 ```bash
-npx shadcn@latest add https://playful.ui.mustaquenadim.com/r/button.json
+npx shadcn@latest add https://ui.playful.mustaquenadim.com/r/button.json
 ```
 
 Variants work the same way (`/r/comp-334.json`, etc.) and pull in their base primitive automatically.
 Each component page also has buttons to copy the command (pnpm / npm / yarn / bun), copy the code,
-or **Open in v0**. The full index lives at [`/r/registry.json`](https://playful.ui.mustaquenadim.com/r/registry.json).
+or **Open in v0**. The full index lives at [`/r/registry.json`](https://ui.playful.mustaquenadim.com/r/registry.json).
 
 ## MCP
 
@@ -51,7 +51,7 @@ Use the registry from Claude Code, Cursor, VS Code or Windsurf via the shadcn MC
    ```json
    {
      "registries": {
-       "@playful": "https://playful.ui.mustaquenadim.com/r/{name}.json"
+       "@playful": "https://ui.playful.mustaquenadim.com/r/{name}.json"
      }
    }
    ```
