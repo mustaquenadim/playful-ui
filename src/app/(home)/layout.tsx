@@ -61,7 +61,16 @@ export default function HomeLayout({
             className={`absolute -inset-x-32 top-0 h-px ${fadeX}`}
           />
           <p className="text-muted-foreground text-sm max-sm:text-center">
-            &copy; {new Date().getFullYear()} Playful UI
+            &copy; {new Date().getFullYear()} Playful UI. Built by{" "}
+            <a
+              href="https://mustaquenadim.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground hover:underline"
+            >
+              Mustaque Nadim
+            </a>
+            .
           </p>
         </footer>
       </div>
